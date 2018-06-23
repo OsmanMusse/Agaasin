@@ -17,8 +17,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-  background-color: red; }
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -297,5 +296,17 @@ template {
  */
 [hidden] {
   display: none; }
+
+p {
+  font-family: LucidaGrande;
+  font-size: 15px;
+  color: rgba(86, 83, 83, 0.74); }
+
+h1 {
+  font-family: LucidaGrande;
+  font-size: 31px;
+  font-weight: normal;
+  color: rgba(37, 36, 36, 0.97);
+  line-height: 28px; }
 
 /*# sourceMappingURL=application.css.map */
