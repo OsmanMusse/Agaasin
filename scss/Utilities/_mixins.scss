@@ -1,0 +1,17 @@
+// ==========================================================================
+//  Mixins
+// ==========================================================================
+
+
+@mixin play-button{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 50%;
+  left: 16px;
+  bottom: 6px;
+  background-image: url(../img/play-button.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  @content;
+}
