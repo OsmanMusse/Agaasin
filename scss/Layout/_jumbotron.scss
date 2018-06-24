@@ -19,20 +19,15 @@
    position: relative;
        &-primary{
          @extend %btn-primary;
+         margin-right: em(10px);
        }
 
        &-secondary{
          position: absolute;
          @extend %btn-secondary;
-         &:before{
-           content: '';
-           position: absolute;
-           width: 15px;
-           height: 50%;
-           left: 5px;
-           background-image: url("../img/play-button.svg");
-           background-repeat: no-repeat;
 
+         &:before{
+          @include play-button;
          }
        }
 

@@ -6,8 +6,8 @@
 font-family: LucidaGrande;
 font-size: 31px;
 font-weight: normal;
-color: rgba(37,36,36,0.97);
-line-height: 28px;
+color: #252424d9;
+line-height: 30px;
 }
 
 
@@ -17,7 +17,9 @@ line-height: 28px;
   border-radius: em(100px);
   color: $white-opacity;
   font-family: LucidaGrande;
-  padding: em(10px) em(35px);
+  padding: em(11px) em(35px);
+  outline: 0;
+  border-style: none;
 }
 
 %btn-secondary{
@@ -25,7 +27,7 @@ line-height: 28px;
   border-radius: em(100px);
   color: rgba(57,53,53,0.82);
   font-family: LucidaGrande;
-  padding: em(10px) em(35px);
-
-
+  padding: em(12px) em(38px);
+  outline: 0;
+  border-style: none;
 }
