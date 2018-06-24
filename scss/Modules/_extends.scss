@@ -8,5 +8,24 @@ font-size: 31px;
 font-weight: normal;
 color: rgba(37,36,36,0.97);
 line-height: 28px;
+}
+
+
+
+%btn-primary{
+  background: #3593C9;
+  border-radius: em(100px);
+  color: $white-opacity;
+  font-family: LucidaGrande;
+  padding: em(10px) em(35px);
+}
+
+%btn-secondary{
+  background: $white;
+  border-radius: em(100px);
+  color: rgba(57,53,53,0.82);
+  font-family: LucidaGrande;
+  padding: em(10px) em(35px);
+
 
 }

@@ -1,0 +1,29 @@
+
+
+header{
+  @extend %header-default;
+
+  nav{
+
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+  }
+
+  li{
+    margin-right: 25px;
+    font-size: em(15px);
+
+
+    a{
+      text-decoration: none;
+      color: $oslo-grey;
+    }
+
+    &:first-child{
+      margin-right: auto;
+    }
+  }
+}

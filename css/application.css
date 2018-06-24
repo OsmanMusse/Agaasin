@@ -302,11 +302,80 @@ p {
   font-size: 15px;
   color: rgba(86, 83, 83, 0.74); }
 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: LucidaGrande;
+  font-weight: normal; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2D2D2D;
+  padding: 0.5em 0; }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.625em; }
+
+#jumbotron {
+  background-color: #E4EDF4;
+  height: 550px;
+  padding: 20px 0; }
+  #jumbotron .first-column {
+    max-width: 510px;
+    margin-top: 9.375em; }
+    #jumbotron .first-column .btn-connect {
+      margin-top: 4.375em; }
+    #jumbotron .first-column .btn {
+      position: relative; }
+      #jumbotron .first-column .btn-secondary {
+        position: absolute; }
+        #jumbotron .first-column .btn-secondary:before {
+          content: '';
+          position: absolute;
+          width: 15px;
+          height: 50%;
+          left: 5px;
+          background-image: url("../img/play-button.svg");
+          background-repeat: no-repeat; }
+
+header ul {
+  display: flex;
+  align-items: center; }
+header li {
+  margin-right: 25px;
+  font-size: 0.9375em; }
+  header li a {
+    text-decoration: none;
+    color: #787B83; }
+  header li:first-child {
+    margin-right: auto; }
+
 h1 {
   font-family: LucidaGrande;
   font-size: 31px;
   font-weight: normal;
   color: rgba(37, 36, 36, 0.97);
   line-height: 28px; }
+
+#jumbotron .first-column .btn-primary {
+  background: #3593C9;
+  border-radius: 6.25em;
+  color: rgba(255, 255, 255, 0.82);
+  font-family: LucidaGrande;
+  padding: 0.625em 2.1875em; }
+
+#jumbotron .first-column .btn-secondary {
+  background: #fff;
+  border-radius: 6.25em;
+  color: rgba(57, 53, 53, 0.82);
+  font-family: LucidaGrande;
+  padding: 0.625em 2.1875em; }
 
 /*# sourceMappingURL=application.css.map */

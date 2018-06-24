@@ -1,0 +1,24 @@
+Last login: Sat Jun 23 18:52:04 on console
+portableuniverses-iMac:~ hanad$ cd desktop/agaasin
+portableuniverses-iMac:agaasin hanad$ sass --watch scss:css
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+>>> Change detected to: scss/Utilities/_helpers.scss
+>>> New template detected: scss/Utilities/_index.scss
+>>> New template detected: scss/Utilities/_functions.scss
+>>> Deleted template detected: scss/Utilities/_helpers.scss
+>>> Change detected to: scss/Utilities/_index.scss
+>>> Change detected to: scss/Utilities/_index.scss
+>>> Change detected to: scss/Utilities/_index.scss
+>>> Change detected to: scss/Utilities/_index.scss
+
+
+
+
+
+
+
+
+
+
+
+

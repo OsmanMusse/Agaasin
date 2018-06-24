@@ -1,3 +1,44 @@
 // ==========================================================================
 //  Jumbotron
 // ==========================================================================
+
+#jumbotron{
+  background-color: $catskill-white;
+  height: 550px;
+  padding: 20px 0;
+
+  .first-column{
+    max-width: 510px;
+    margin-top: em(150px);
+
+    .btn-connect{
+      margin-top: em(70px);
+    }
+
+    .btn{
+   position: relative;
+       &-primary{
+         @extend %btn-primary;
+       }
+
+       &-secondary{
+         position: absolute;
+         @extend %btn-secondary;
+         &:before{
+           content: '';
+           position: absolute;
+           width: 15px;
+           height: 50%;
+           left: 5px;
+           background-image: url("../img/play-button.svg");
+           background-repeat: no-repeat;
+
+         }
+       }
+
+
+    }
+
+  }
+
+}
