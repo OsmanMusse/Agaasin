@@ -297,9 +297,20 @@ template {
 [hidden] {
   display: none; }
 
+h4 {
+  font-family: LucidaGrande;
+  font-size: 0.9375em;
+  color: rgba(86, 83, 83, 0.74); }
+
+h6 {
+  font-family: LucidaGrande;
+  font-size: 0.8125em;
+  color: rgba(86, 83, 83, 0.74);
+  margin-bottom: 0; }
+
 p {
   font-family: LucidaGrande;
-  font-size: 15px;
+  font-size: 0.9375em;
   color: rgba(86, 83, 83, 0.74); }
 
 ul,
@@ -362,7 +373,7 @@ header li {
     margin-right: auto; }
 
 #main-content {
-  padding: 6.25em 0 5em 0;
+  padding: 6.25em 0 3.125em 0;
   text-align: center; }
   #main-content h1 {
     max-width: 610px;
@@ -372,6 +383,68 @@ header li {
     max-width: 906px;
     margin: 1.875em auto;
     width: 100%; }
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-template-rows: 18.75em;
+  grid-column-gap: 1.125em;
+  max-width: 1160px;
+  margin: 4.125em auto;
+  width: 100%; }
+  .grid-section .grid-item:nth-of-type(1) .grid-icon {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 149px;
+    margin: 0 auto;
+    height: 149px;
+    background: #FEFEFE;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.5); }
+    .grid-section .grid-item:nth-of-type(1) .grid-icon img {
+      background-repeat: no-repeat;
+      margin: 0 auto; }
+  .grid-section .grid-item:nth-of-type(2) .grid-icon {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 149px;
+    margin: 0 auto;
+    height: 149px;
+    background: #FEFEFE;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.5); }
+    .grid-section .grid-item:nth-of-type(2) .grid-icon img {
+      background-repeat: no-repeat;
+      margin: 0 auto; }
+  .grid-section .grid-item:nth-of-type(3) .grid-icon {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 149px;
+    margin: 0 auto;
+    height: 149px;
+    background: #FEFEFE;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.5); }
+    .grid-section .grid-item:nth-of-type(3) .grid-icon img {
+      background-repeat: no-repeat;
+      margin: 0 auto; }
+
+#tweets-section {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  padding: 0 1.25em;
+  background-color: #F0F0F0; }
+  #tweets-section p {
+    margin: 0; }
+  #tweets-section .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 640px;
+    width: 100%; }
+  #tweets-section .profile-img {
+    display: flex; }
 
 h1, #main-content h1 {
   font-family: LucidaGrande;
