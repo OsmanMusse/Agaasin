@@ -3,10 +3,23 @@ h1{
   @extend %hdln-primary;
 }
 
+h4{
+font-family: LucidaGrande;
+font-size: em(15px);
+color: $emperor;
+}
+
+h6{
+font-family: LucidaGrande;
+font-size: em(13px);
+color: $emperor;
+margin-bottom: 0;
+}
+
 p{
 font-family: LucidaGrande;
-font-size: 15px;
-color: rgba(86,83,83,0.74);
+font-size: em(15px);
+color: $emperor;
 }
 
 
