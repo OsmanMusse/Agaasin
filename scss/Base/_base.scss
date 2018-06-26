@@ -1,6 +1,9 @@
 
 h1{
   @extend %hdln-primary;
+  @media(max-width: $xs){
+    font-size: em(26px);
+  }
 }
 
 h4{
@@ -13,7 +16,7 @@ h6{
 font-family: LucidaGrande;
 font-size: em(13px);
 color: $emperor;
-margin-bottom: 0;
+margin-bottom: em(8px);
 }
 
 p{
