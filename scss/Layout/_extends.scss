@@ -4,5 +4,15 @@
   flex-direction: column;
   justify-content: center;
   background-color: $mine-shaft;
-  padding: em(8px) 0;
+  padding: em(8px) em(12px);
+
+  @media(max-width: $md){
+    .img-logo{
+      width: 165px;
+    }
+    .list-item{
+      display: none;
+    }
+
+  }
 }

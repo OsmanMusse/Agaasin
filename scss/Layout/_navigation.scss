@@ -25,5 +25,17 @@ header{
     &:first-child{
       margin-right: auto;
     }
+
   }
+
+  .hamburger-icon{
+    display: none;
+  }
+
+  @media(max-width: $md){
+    .hamburger-icon{
+      display: block;
+    }
+  }
+
 }

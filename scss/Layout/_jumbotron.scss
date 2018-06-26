@@ -5,7 +5,11 @@
 #jumbotron{
   background-color: $catskill-white;
   height: 550px;
-  padding: 20px 0;
+  padding: em(20px) em(30px);
+
+  @media(max-width: $xs){
+    padding: em(5px) em(20px);
+  }
 
   .first-column{
     max-width: 510px;

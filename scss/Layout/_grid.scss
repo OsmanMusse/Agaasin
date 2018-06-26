@@ -5,13 +5,17 @@
 
 .grid-section{
   display: grid;
-  grid-template-columns: repeat(3, 380px);
+  grid-template-columns: repeat(auto-fill, minmax(360px,360px));
   grid-template-rows: em(300px);
   grid-column-gap: em(18px);
   max-width: 1160px;
   margin: em(66px) auto;
   width: 100%;
-  // border: 2px solid red;
+
+  @media(max-width: $sm){
+    justify-content: center;
+    grid-row-gap: em(20px);
+  }
 
 
 

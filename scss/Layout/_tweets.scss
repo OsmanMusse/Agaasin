@@ -6,8 +6,23 @@
   padding: 0 em(20px);
   background-color: $gallery;
 
+  @media(max-width: 500px){
+    padding-top: em(30px);
+    padding-bottom: em(30px);
+  }
+
   p{
     margin: 0;
+  }
+
+  .img-hide-lg{
+    display: none;
+    @media(max-width: 500px){
+      display: block;
+      margin-bottom: em(30px);
+    }
+
+
   }
 
   .profile-info{
@@ -20,5 +35,8 @@
 
   .profile-img{
     display: flex;
+    @media(max-width: 500px){
+      display: none;
+    }
   }
 }

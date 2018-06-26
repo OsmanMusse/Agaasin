@@ -4,10 +4,14 @@
 
 %hdln-primary{
 font-family: LucidaGrande;
-font-size: 31px;
+font-size: em(31px);
 font-weight: normal;
 color: #252424d9;
 line-height: 30px;
+
+@media(max-width: $xs){
+  font-size: em(25.5px);
+}
 }
 
 
