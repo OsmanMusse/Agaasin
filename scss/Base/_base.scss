@@ -1,9 +1,6 @@
 
 h1{
   @extend %hdln-primary;
-  @media(max-width: $xs){
-    font-size: em(26px);
-  }
 }
 
 h4{

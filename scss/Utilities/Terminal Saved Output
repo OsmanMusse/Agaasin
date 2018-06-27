@@ -1,0 +1,159 @@
+Last login: Tue Jun 26 21:23:04 on ttys000
+portableuniverses-iMac:~ hanad$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+portableuniverses-iMac:~ hanad$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+portableuniverses-iMac:~ hanad$ gicoeal
+-bash: gicoeal: command not found
+portableuniverses-iMac:~ hanad$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+portableuniverses-iMac:~ hanad$ cd desktop/agaasin
+portableuniverses-iMac:agaasin hanad$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+portableuniverses-iMac:agaasin hanad$ sass --watch scss:Css
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+  directory Css/Vendors/slick
+      write Css/Vendors/slick/slick-theme.css
+      write Css/Vendors/slick/slick-theme.css.map
+      write Css/Vendors/slick/slick.css
+      write Css/Vendors/slick/slick.css.map
+      write Css/application.css
+      write Css/application.css.map
+>>> New template detected: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/Vendors/_index.scss
+>>> Change detected to: scss/application.scss
+      write Css/application.css
+      write Css/application.css.map
+>>> Change detected to: scss/application.scss
+      error scss/Vendors/_index.scss (Line 2: File to import not found or unreadable: slick/slick.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/application.scss
+      error scss/Vendors/_index.scss (Line 2: File to import not found or unreadable: slick/slick.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 2: File to import not found or unreadable: slick/slick.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 2: File to import not found or unreadable: slick/slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 2: File to import not found or unreadable: slick/slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 2: File to import not found or unreadable: slick/slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      write Css/application.css
+      write Css/application.css.map
+>>> Change detected to: scss/Vendors/_index.scss
+      write Css/application.css
+      write Css/application.css.map
+>>> Change detected to: scss/Vendors/_index.scss
+      write Css/application.css
+      write Css/application.css.map
+>>> New template detected: scss/Vendors/slick.scss
+  directory Css/Vendors
+      write Css/Vendors/slick.css
+      write Css/Vendors/slick.css.map
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> New template detected: scss/Vendors/_slick.scss
+>>> Deleted template detected: scss/Vendors/slick.scss
+     delete Css/Vendors/slick.css
+     delete Css/Vendors/slick.css.map
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_slick.scss
+      error scss/Vendors/_index.scss (Line 1: File to import not found or unreadable: slick.min.js.
+Load path: /Users/hanad/Desktop/Agaasin/scss)
+>>> Change detected to: scss/Vendors/_index.scss
+      write Css/application.css
+      write Css/application.css.map
+>>> Change detected to: scss/application.scss
+>>> Deleted template detected: scss/Vendors/slick/slick-theme.scss
+>>> Deleted template detected: scss/Vendors/slick/slick.scss
+      write Css/application.css
+      write Css/application.css.map
+>>> Change detected to: scss/Vendors/_index.scss
+      write Css/application.css
+      write Css/application.css.map
+
