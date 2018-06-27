@@ -1,0 +1,67 @@
+
+
+#carousel{
+ padding: 0 0 em(40px) 0;
+  img{
+    width: 100%;
+  }
+
+
+  .slick-next{
+    right: 40px;
+  }
+
+.fa-caret-left{
+  display: none;
+  font-size: em(100px);
+  position: absolute;
+  top: 45%;
+  padding-left: em(5px);
+  color: $mine-shaft;
+  @media(min-width: $xs){
+    display: block;
+  }
+  @media(max-width: $md){
+    font-size: em(70px);
+  }
+}
+
+.fa-caret-right{
+  display: none ;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  font-size: em(100px);
+  padding-right: em(5px);
+  color: $mine-shaft;
+  z-index: 10000;
+
+  @media(min-width: $xs){
+    display: initial;
+  }
+
+  @media(max-width: $md){
+    font-size: em(70px);
+  }
+}
+
+
+.slick-dots{
+margin-bottom: em(-20px);
+
+@media(min-width: $xs){
+  display: none !important;
+}
+
+button[role="tab"]{
+  &:before{
+  font-size: 10px;
+}
+}
+
+}
+
+
+
+
+}
