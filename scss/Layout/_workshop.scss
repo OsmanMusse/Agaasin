@@ -2,27 +2,30 @@
 
 #workshop{
   text-align: center;
-  padding-bottom: em(40px);
+  padding: 0 1.25em;
 
   .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
-    grid-template-rows: 390px;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-template-rows: repeat(auto-fit, 390px);
     grid-column-gap: 40px;
     max-width: 1100px;
-    margin: 0 auto;
-    border: 2px solid red;
+    margin: em(70px) auto;
+
+    @media(max-width: $grid-break){
+      grid-row-gap: 30px;
+    }
   }
 
+
+
   .grid-item:nth-of-type(1){
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     color: $white;
     font-size: em(35px);
     font-weight: bold;
     align-items: center;
-
 
     &:before{
       content: "Garowe";
@@ -31,7 +34,84 @@
 
     img{
       max-width: 100%;
+      width: 100%;
       height: 100%;
     }
-  }
+
+
+
+    /* Title names for each workshop */
+
+
+  } // Closing Grid Items // 1 //
+
+
+  .grid-item:nth-of-type(2){
+    // border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    color: $white;
+    font-size: em(35px);
+    font-weight: bold;
+    align-items: center;
+
+    &:before{
+      content: "Galkacyo";
+      position: absolute;
+    }
+
+    img{
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+
+      &.galkacyo-img{
+        @media(max-width: $grid-break){
+          height: 400px;
+        }
+      }
+    }
+
+    /* Title names for each workshop */
+
+
+  } // Closing Grid Items   // 2 //
+
+
+
+  .grid-item:nth-of-type(3){
+    // border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    color: $white;
+    font-size: em(35px);
+    font-weight: bold;
+    align-items: center;
+
+    @media(max-width: $md) and (min-width: $grid-break){
+      margin-top: 20px;
+    }
+
+    &:before{
+      content: "Bosaso";
+      position: absolute;
+    }
+
+    img{
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+
+      @media(max-width: $grid-break){
+        height: 400px;
+      }
+
+    }
+
+    /* Title names for each workshop */
+
+
+  } // Closing Grid Items   // 3 //
+
+
 }
