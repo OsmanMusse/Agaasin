@@ -25,8 +25,12 @@ $gallery : #F0F0F0; // Grey Color for the tweets section
 $oslo-grey : #787B83;
 $emperor : rgba(86,83,83,0.74); // Text Color for the H6
 
-// Media Queries
+// Media Queries for Devices
 $xs : 575px;
 $sm : 736px;
 $md : 992px;
-$grid-break: 640px;
+
+// // Media Queries for Workshop Grid
+$grid-break-xs: 640px;
+$grid-break-md : 960px;
+$grid-max: 1100px;

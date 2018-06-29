@@ -486,15 +486,22 @@ header .hamburger-icon {
   #workshop .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-template-rows: repeat(auto-fit, 390px);
+    grid-template-rows: repeat(auto-fit, 470px);
     grid-column-gap: 40px;
     max-width: 1100px;
     margin: 4.375em auto; }
+    @media (max-width: 575px) {
+      #workshop .grid-container {
+        margin: 3.125em auto; } }
     @media (max-width: 640px) {
       #workshop .grid-container {
         grid-row-gap: 30px; } }
+    @media (max-width: 960px) and (min-width: 640px) {
+      #workshop .grid-container {
+        grid-row-gap: 40px; } }
   #workshop .grid-item:nth-of-type(1) {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #fff;
     font-size: 2.1875em;
@@ -505,48 +512,48 @@ header .hamburger-icon {
       content: "Garowe";
       position: absolute; }
     #workshop .grid-item:nth-of-type(1) img {
-      max-width: 100%;
       width: 100%;
-      height: 100%; }
+      min-height: 400px;
+      max-height: 400px; }
   #workshop .grid-item:nth-of-type(2) {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #fff;
     font-size: 2.1875em;
     font-weight: bold;
-    align-items: center;
-    /* Title names for each workshop */ }
+    align-items: center; }
     #workshop .grid-item:nth-of-type(2):before {
       content: "Galkacyo";
       position: absolute; }
     #workshop .grid-item:nth-of-type(2) img {
-      max-width: 100%;
       width: 100%;
-      height: 100%; }
-      @media (max-width: 640px) {
-        #workshop .grid-item:nth-of-type(2) img.galkacyo-img {
-          height: 400px; } }
+      min-height: 400px;
+      max-height: 400px; }
+    @media (max-width: 960px) {
+      #workshop .grid-item:nth-of-type(2) button {
+        margin-top: 18px; } }
   #workshop .grid-item:nth-of-type(3) {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #fff;
     font-size: 2.1875em;
     font-weight: bold;
-    align-items: center;
-    /* Title names for each workshop */ }
-    @media (max-width: 992px) and (min-width: 640px) {
-      #workshop .grid-item:nth-of-type(3) {
-        margin-top: 20px; } }
+    align-items: center; }
     #workshop .grid-item:nth-of-type(3):before {
       content: "Bosaso";
       position: absolute; }
     #workshop .grid-item:nth-of-type(3) img {
-      max-width: 100%;
       width: 100%;
-      height: 100%; }
-      @media (max-width: 640px) {
-        #workshop .grid-item:nth-of-type(3) img {
-          height: 400px; } }
+      min-height: 400px;
+      max-height: 400px; }
+    @media (max-width: 960px) {
+      #workshop .grid-item:nth-of-type(3) button {
+        margin-top: 18px; } }
+  #workshop button {
+    font-size: 18px;
+    margin-top: auto; }
 
 h1, #main-content h1 {
   font-family: LucidaGrande;
@@ -558,7 +565,7 @@ h1, #main-content h1 {
     h1, #main-content h1 {
       font-size: 1.59375em; } }
 
-#jumbotron .first-column .btn-primary {
+#jumbotron .first-column .btn-primary, #workshop button {
   background: #3593C9;
   border-radius: 6.25em;
   color: rgba(255, 255, 255, 0.82);
