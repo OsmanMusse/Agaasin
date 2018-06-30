@@ -322,6 +322,19 @@ li {
   font-family: LucidaGrande;
   font-weight: normal; }
 
+input[type="email"] {
+  position: relative;
+  background-color: #484848;
+  border-color: transparent;
+  border-radius: 4px;
+  padding: 1em 110px;
+  color: #fff; }
+  input[type="email"]::placeholder {
+    font-family: LucidaGrande;
+    font-weight: normal;
+    font-size: 1.0625em;
+    color: #fff; }
+
 header {
   display: flex;
   flex-direction: column;
@@ -480,6 +493,16 @@ header .hamburger-icon {
       #tweets-section .profile-img {
         display: none; } }
 
+#needhelp {
+  padding: 6.25em 0;
+  text-align: center; }
+  #needhelp p {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto; }
+  #needhelp button {
+    margin-top: 1.5625em; }
+
 #workshop {
   text-align: center;
   padding: 0 1.25em; }
@@ -590,6 +613,42 @@ header .hamburger-icon {
     #sponsorship .slides-sponsor img {
       max-width: 200px; }
 
+#subscription {
+  display: flex;
+  flex-direction: column;
+  background-color: #2D2D2D;
+  padding: 5em 0.9375em; }
+  #subscription h2 {
+    text-align: center;
+    color: #fff; }
+  #subscription .form-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 1.25em auto 0 auto; }
+    @media (max-width: 625px) {
+      #subscription .form-container {
+        display: flex;
+        flex-direction: column; } }
+    #subscription .form-container img {
+      width: 30px;
+      position: absolute;
+      left: 25px;
+      top: 14px; }
+    #subscription .form-container input {
+      margin-right: 5.625em; }
+      @media (max-width: 430px) {
+        #subscription .form-container input {
+          padding: 1em 5.3125em; } }
+      @media (max-width: 736px) {
+        #subscription .form-container input {
+          margin-right: 0.625em; } }
+      @media (max-width: 625px) {
+        #subscription .form-container input {
+          margin-bottom: 1.125em; } }
+    #subscription .form-container button {
+      font-size: 1.0625em; }
+
 h1, #main-content h1 {
   font-family: LucidaGrande;
   font-size: 1.9375em;
@@ -600,7 +659,16 @@ h1, #main-content h1 {
     h1, #main-content h1 {
       font-size: 1.59375em; } }
 
-#jumbotron .first-column .btn-primary, #workshop button {
+h2 {
+  font-family: LucidaGrande;
+  font-size: 1.5625em;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.82); }
+  @media (max-width: 575px) {
+    h2 {
+      font-size: 1.375em; } }
+
+#jumbotron .first-column .btn-primary, #needhelp button, #workshop button {
   background: #3593C9;
   border-radius: 6.25em;
   color: rgba(255, 255, 255, 0.82);
@@ -618,6 +686,15 @@ h1, #main-content h1 {
   outline: 0;
   border-style: none; }
 
+#subscription .form-container button {
+  background-color: transparent;
+  border-radius: 0.625em;
+  color: #fff;
+  font-family: LucidaGrande;
+  padding: 0.75em 2.375em;
+  outline: 0;
+  border: 3px solid #6C6C6C; }
+
 #carousel {
   padding: 0 0 2.5em 0; }
   #carousel img {
@@ -630,6 +707,7 @@ h1, #main-content h1 {
     position: absolute;
     top: 45%;
     padding-left: 0.3125em;
+    cursor: pointer;
     color: #2D2D2D; }
     @media (min-width: 575px) {
       #carousel .fa-caret-left {
@@ -645,7 +723,8 @@ h1, #main-content h1 {
     font-size: 6.25em;
     padding-right: 0.3125em;
     color: #2D2D2D;
-    z-index: 10000; }
+    z-index: 10000;
+    cursor: pointer; }
     @media (min-width: 575px) {
       #carousel .fa-caret-right {
         display: initial; } }
