@@ -17,6 +17,7 @@
   position: absolute;
   top: 45%;
   padding-left: em(5px);
+  cursor: pointer;
   color: $mine-shaft;
   @media(min-width: $xs){
     display: block;
@@ -35,6 +36,7 @@
   padding-right: em(5px);
   color: $mine-shaft;
   z-index: 10000;
+  cursor: pointer;
 
   @media(min-width: $xs){
     display: initial;

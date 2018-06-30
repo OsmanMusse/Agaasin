@@ -14,6 +14,17 @@ line-height: 30px;
 }
 }
 
+%hdln-secondary{
+  font-family: LucidaGrande;
+  font-size: em(25px);
+  font-weight: normal;
+  color: $white-opacity;
+
+  @media(max-width: $xs){
+    font-size: em(22px);
+  }
+}
+
 
 
 %btn-primary{
@@ -34,4 +45,14 @@ line-height: 30px;
   padding: em(12px) em(38px);
   outline: 0;
   border-style: none;
+}
+
+%btn-form{
+  background-color: transparent;
+  border-radius: em(10px);
+  color: $white;
+    font-family: LucidaGrande;
+  padding: em(12px) em(38px);
+  outline: 0;
+  border: 3px solid #6C6C6C;
 }

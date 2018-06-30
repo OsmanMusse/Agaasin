@@ -39,4 +39,22 @@
       display: none;
     }
   }
+} // Closing the Tweets Section
+
+
+// Need Help Section
+#needhelp{
+  padding: em(100px) 0;
+  text-align: center;
+
+  p{
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  button{
+    @extend %btn-primary;
+    margin-top: em(25px);
+  }
 }

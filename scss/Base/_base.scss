@@ -3,6 +3,11 @@ h1{
   @extend %hdln-primary;
 }
 
+h2{
+
+  @extend %hdln-secondary
+}
+
 h4{
 font-family: LucidaGrande;
 font-size: em(15px);
@@ -30,4 +35,20 @@ li {
   list-style-type: none;
   font-family: LucidaGrande;
   font-weight: normal;
+}
+
+input[type="email"]{
+  position: relative;
+  background-color: #484848;
+  border-color: transparent;
+  border-radius: 4px;
+  padding: em(16px) (110px);
+  color: $white;
+
+  &::placeholder{
+    font-family: LucidaGrande;
+    font-weight: normal;
+    font-size: em(17px);
+    color: $white;
+  }
 }
