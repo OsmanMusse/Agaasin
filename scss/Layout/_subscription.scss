@@ -39,7 +39,7 @@
       margin-right: em(90px);
 
       @media(max-width: $form-break-xs){
-         padding: em(14px) em(60px);
+         padding: em(14px) em(50px);
       }
 
       @media(max-width: $sm){
@@ -56,7 +56,7 @@
       font-size: em(17px);
 
       @media(max-width: $form-break-xs){
-         padding: em(12px) em(1px) !important;
+         padding: em(12px) em(15px) !important;
         }
 
     }
