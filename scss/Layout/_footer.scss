@@ -1,0 +1,80 @@
+
+#main-footer{
+
+background-color: $mine-shaft;
+border-top: 2px solid #575757;
+padding-top:  em(20px);
+
+
+
+ .container{
+   display: flex;
+   justify-content: center;
+   padding-bottom: em(40px);
+
+   @media(max-width: $footer-break){
+     flex-direction: column;
+   }
+
+ }
+
+  h3{
+    position: relative;
+    color: $oslo-grey;
+
+    &.blue{
+      color: $boston-blue;
+    }
+
+    &.text-upper{
+      text-transform: uppercase;
+    }
+
+    &.active-red:before{
+      content: "";
+      border-bottom: 2px solid $boston-blue;
+      position: absolute;
+      bottom: -13px;
+      left: 0px;
+      width: 60px;
+
+    }
+  }
+
+  p{
+    color: #727579;
+    font-weight: 100;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: em(40px);
+  }
+
+  li{
+    display: flex;
+    flex-direction: row-reverse;
+    color: $oslo-grey;
+    margin-bottom: em(20px);
+
+
+
+   img{
+     margin-right: em(15px);
+   }
+
+  }
+
+
+  .copyright-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #575757;
+    height: em(90px);
+  }
+
+
+}
