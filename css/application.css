@@ -635,11 +635,15 @@ header .hamburger-icon {
       position: absolute;
       left: 25px;
       top: 14px; }
+      @media (max-width: 430px) {
+        #subscription .form-container img {
+          left: 18px;
+          top: 13px; } }
     #subscription .form-container input {
       margin-right: 5.625em; }
       @media (max-width: 430px) {
         #subscription .form-container input {
-          padding: 0.875em 0.5em; } }
+          padding: 0.875em 3.75em; } }
       @media (max-width: 736px) {
         #subscription .form-container input {
           margin-right: 0.625em; } }
@@ -648,6 +652,9 @@ header .hamburger-icon {
           margin-bottom: 1.125em; } }
     #subscription .form-container button {
       font-size: 1.0625em; }
+      @media (max-width: 430px) {
+        #subscription .form-container button {
+          padding: 0.75em 0.0625em !important; } }
 
 h1, #main-content h1 {
   font-family: LucidaGrande;
@@ -694,6 +701,9 @@ h2 {
   padding: 0.75em 2.375em;
   outline: 0;
   border: 3px solid #6C6C6C; }
+  @media (max-width: 430px) {
+    #subscription .form-container button {
+      padding: 0.75em 1.125em; } }
 
 #carousel {
   padding: 0 0 2.5em 0; }

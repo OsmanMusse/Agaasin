@@ -55,4 +55,9 @@ line-height: 30px;
   padding: em(12px) em(38px);
   outline: 0;
   border: 3px solid #6C6C6C;
+
+  @media(max-width: $form-break-xs){
+     padding: em(12px) em(18px);
+    }
+
 }

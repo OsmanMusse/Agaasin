@@ -28,14 +28,18 @@
       position: absolute;
       left: 25px;
       top: 14px;
+
+      @media(max-width: $form-break-xs){
+        left: 18px;
+        top: 13px;
+      }
+
     }
     input{
       margin-right: em(90px);
 
-
-
       @media(max-width: $form-break-xs){
-         padding: em(14px) em(8px);
+         padding: em(14px) em(60px);
       }
 
       @media(max-width: $sm){
@@ -52,7 +56,7 @@
       font-size: em(17px);
 
       @media(max-width: $form-break-xs){
-         padding: em(12px) em(28px);
+         padding: em(12px) em(1px) !important;
         }
 
     }
