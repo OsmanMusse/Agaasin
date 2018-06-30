@@ -32,8 +32,10 @@
     input{
       margin-right: em(90px);
 
+
+
       @media(max-width: $form-break-xs){
-         padding: em(16px) em(85px);
+         padding: em(14px) em(8px);
       }
 
       @media(max-width: $sm){
@@ -48,6 +50,11 @@
     button{
       @extend %btn-form;
       font-size: em(17px);
+
+      @media(max-width: $form-break-xs){
+         padding: em(12px) em(28px);
+        }
+
     }
   } // Closing Form Container
 
