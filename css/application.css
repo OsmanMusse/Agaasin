@@ -639,7 +639,7 @@ header .hamburger-icon {
       margin-right: 5.625em; }
       @media (max-width: 430px) {
         #subscription .form-container input {
-          padding: 1em 5.3125em; } }
+          padding: 0.875em 0.5em; } }
       @media (max-width: 736px) {
         #subscription .form-container input {
           margin-right: 0.625em; } }
