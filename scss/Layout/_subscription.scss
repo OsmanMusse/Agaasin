@@ -1,0 +1,55 @@
+
+
+#subscription{
+  display: flex;
+  flex-direction: column;
+  background-color: $mine-shaft;
+  padding: em(80px) em(15px);
+
+  h2{
+    text-align: center;
+    color: $white;
+  }
+
+  .form-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: em(20px) auto 0 auto;
+    @media(max-width: $form-break-sm){
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    img{
+      width: 30px;
+      position: absolute;
+      left: 25px;
+      top: 14px;
+    }
+    input{
+      margin-right: em(90px);
+
+      @media(max-width: $form-break-xs){
+         padding: em(16px) em(85px);
+      }
+
+      @media(max-width: $sm){
+        margin-right: em(10px);
+      }
+
+      @media(max-width: $form-break-sm){
+        margin-bottom: em(18px);
+      }
+    }
+
+    button{
+      @extend %btn-form;
+      font-size: em(17px);
+    }
+  } // Closing Form Container
+
+
+} // Closing Subscription
