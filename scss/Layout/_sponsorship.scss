@@ -1,0 +1,66 @@
+
+#sponsorship{
+  background-color: $gallery;
+  padding: em(90px) 0 ;
+  text-align: center;
+  overflow: hidden;
+
+
+  h1{
+    font-size: em(31px);
+    color: $black;
+  }
+
+  p{
+    font-size: em(16px);
+  }
+
+  // carousel
+
+  .slides-sponsor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 em(80px);
+    margin-top: em(60px);
+
+
+    .slick-track{
+      display: flex;
+      align-items: center;
+    }
+     .slick-active {
+     #slick-slide-control10{
+
+     &:before{
+       opacity: 1;
+       font-size: 14px;
+       color: #5D58F8;
+     }
+   }
+     #slick-slide-control11{
+       &:before{
+         opacity: 1;
+         font-size: 1px;
+         border: 2px solid transparent;
+         background-color: #5D58F8;
+         border-radius: 100%;
+     }
+
+   }
+ }
+
+ .slick-dots {
+   @media(max-width: $grid-break-xs){
+     bottom: -50px;
+   }
+ }
+
+    img{
+      max-width: 200px;
+    }
+
+
+
+  } // Closing Carousel Slide
+}
