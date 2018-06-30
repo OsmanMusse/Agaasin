@@ -5,6 +5,7 @@ $('.slides').slick({
   mobileFirst : true,
   nextArrow : '<i class="fas fa-caret-left"></i>',
   prevArrow : '<i class="fas fa-caret-right"></i>',
+  autoplay: true,
   responsive : [
     {
     breakpoint: 575,
