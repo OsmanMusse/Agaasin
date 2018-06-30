@@ -1,54 +1,64 @@
 
-h1{
-  @extend %hdln-primary;
-}
+  h1{
+    @extend %hdln-primary;
+  }
 
-h2{
-
-  @extend %hdln-secondary
-}
-
-h4{
-font-family: LucidaGrande;
-font-size: em(15px);
-color: $emperor;
-}
-
-h6{
-font-family: LucidaGrande;
-font-size: em(13px);
-color: $emperor;
-margin-bottom: em(8px);
-}
-
-p{
-font-family: LucidaGrande;
-font-size: em(15px);
-color: $emperor;
-}
+  h2{
+    @extend %hdln-secondary
+  }
 
 
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  h3{
   font-family: LucidaGrande;
-  font-weight: normal;
-}
+  font-size: em(18px);
+  color: $emperor;
+  }
 
-input[type="email"]{
-  position: relative;
-  background-color: #484848;
-  border-color: transparent;
-  border-radius: 4px;
-  padding: em(16px) (110px);
-  color: $white;
+  h4{
+  font-family: LucidaGrande;
+  font-size: em(15px);
+  color: $emperor;
+  }
 
-  &::placeholder{
+  h6{
+  font-family: LucidaGrande;
+  font-size: em(13px);
+  color: $emperor;
+  margin-bottom: em(8px);
+  }
+
+  p{
+  font-family: LucidaGrande;
+  font-size: em(15px);
+  color: $emperor;
+  }
+
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     font-family: LucidaGrande;
     font-weight: normal;
-    font-size: em(17px);
-    color: $white;
   }
-}
+
+  input[type="email"]{
+    position: relative;
+    background-color: #484848;
+    border-color: transparent;
+    border-radius: 4px;
+    width: 420px;
+    min-height: 50px;
+    padding-left: 80px;
+    color: $white;
+    margin-left: -20px;
+
+    &::placeholder{
+      font-family: LucidaGrande;
+      font-weight: normal;
+      font-size: em(17px);
+      color: $white;
+
+    }
+  }

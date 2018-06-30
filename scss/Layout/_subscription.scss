@@ -24,9 +24,9 @@
 
 
     img{
-      width: 30px;
+      width: 28px;
       position: absolute;
-      left: 25px;
+      left: 10px;
       top: 14px;
 
       @media(max-width: $form-break-xs){
@@ -39,15 +39,17 @@
     input{
       margin-right: em(90px);
 
-      @media(max-width: $form-break-xs){
-         padding: em(14px) em(50px);
-      }
 
       @media(max-width: $sm){
         margin-right: em(10px);
       }
 
+      @media(max-width: 660px){
+        margin: 0;
+      }
+
       @media(max-width: $form-break-sm){
+        width: 370px;
         margin-bottom: em(18px);
       }
     }
