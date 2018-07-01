@@ -3653,7 +3653,10 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #2D2D2D;
-  padding: 0.5em 2.0625em; }
+  padding: 0.5em 1.25em; }
+  @media (max-width: 360px) {
+    header {
+      padding: 0.5em 0.625em; } }
   @media (max-width: 992px) {
     header .img-logo {
       width: 165px; }
@@ -3672,6 +3675,9 @@ header {
   @media (max-width: 575px) {
     #jumbotron {
       padding: 0.3125em 1.25em; } }
+  @media (max-width: 360px) {
+    #jumbotron {
+      padding: 0.3125em 0.625em; } }
   #jumbotron .first-column {
     max-width: 510px;
     margin-top: 9.375em; }
