@@ -7,8 +7,14 @@
   height: 550px;
   padding: em(20px) em(40px);
 
+
+
   @media(max-width: $xs){
     padding: em(5px) em(20px);
+  }
+
+  @media(max-width: $xs-below){
+    padding: em(5px) em(10px);
   }
 
   .first-column{
@@ -29,6 +35,9 @@
        &-secondary{
          position: absolute;
          @extend %btn-secondary;
+
+      
+
 
          &:before{
           @include play-button;

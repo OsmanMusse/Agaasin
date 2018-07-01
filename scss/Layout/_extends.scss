@@ -4,7 +4,12 @@
   flex-direction: column;
   justify-content: center;
   background-color: $mine-shaft;
-  padding: em(8px) em(33px);
+  padding: em(8px) em(20px);
+
+  @media(max-width: $xs-below){
+    padding: em(8px) em(10px);
+  }
+
 
   @media(max-width: $md){
     .img-logo{
