@@ -39,6 +39,10 @@
     input{
       margin-right: em(90px);
 
+      @media(max-width: $xs-below){
+        max-width: 330px;
+      }
+
 
       @media(max-width: $sm){
         margin-right: em(10px);
