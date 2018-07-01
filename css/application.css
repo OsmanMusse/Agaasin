@@ -3955,6 +3955,9 @@ header .hamburger-icon {
           top: 12px; } }
     #subscription .form-container input {
       margin-right: 5.625em; }
+      @media (max-width: 360px) {
+        #subscription .form-container input {
+          max-width: 330px; } }
       @media (max-width: 736px) {
         #subscription .form-container input {
           margin-right: 0.625em; } }
