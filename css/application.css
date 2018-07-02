@@ -3728,10 +3728,16 @@ header .hamburger-icon {
     max-width: 610px;
     margin: 0 auto;
     width: 100%; }
+    @media (max-width: 575px) {
+      #main-content h1 {
+        font-size: 1.3125em; } }
   #main-content p {
     max-width: 906px;
     margin: 1.875em auto;
     width: 100%; }
+    @media (max-width: 575px) {
+      #main-content p {
+        max-width: 320px; } }
 
 .grid-section {
   display: grid;
@@ -3745,6 +3751,9 @@ header .hamburger-icon {
     .grid-section {
       justify-content: center;
       grid-row-gap: 1.25em; } }
+  @media (max-width: 575px) {
+    .grid-section p {
+      max-width: 320px; } }
   .grid-section .grid-item:nth-of-type(1) .grid-icon {
     display: flex;
     border: 2px solid transparent;
@@ -4036,6 +4045,9 @@ h1, #main-content h1 {
   @media (max-width: 575px) {
     h1, #main-content h1 {
       font-size: 1.59375em; } }
+  @media (max-width: 360px) {
+    h1, #main-content h1 {
+      font-size: 1.3125em; } }
 
 h2 {
   font-family: LucidaGrande;
