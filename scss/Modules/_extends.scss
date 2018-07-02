@@ -12,6 +12,11 @@ line-height: 30px;
 @media(max-width: $xs){
   font-size: em(25.5px);
 }
+
+@media(max-width: $xs-below){
+  font-size: em(21px);
+}
+
 }
 
 %hdln-secondary{
