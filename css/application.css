@@ -3711,11 +3711,90 @@ header li {
     color: #787B83; }
   header li:first-child {
     margin-right: auto; }
+header label {
+  cursor: pointer; }
+header input[type="checkbox"] {
+  display: none; }
+header #toggle:checked + .nav-mobile {
+  display: block; }
 header .hamburger-icon {
   display: none; }
 @media (max-width: 992px) {
   header .hamburger-icon {
     display: block; } }
+
+.nav-mobile {
+  display: none;
+  padding-bottom: 2.5em;
+  background-color: #2D2D2D; }
+  .nav-mobile .container {
+    padding: 0; }
+  .nav-mobile nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1.125em 0 4.375em 0; }
+    .nav-mobile nav a {
+      display: flex;
+      align-items: baseline;
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid #65676b;
+      padding: 0.625em 0;
+      font-family: LucidaGrande; }
+      .nav-mobile nav a:hover {
+        color: rgba(255, 255, 255, 0.6); }
+    .nav-mobile nav img {
+      display: inline-block;
+      width: 26px;
+      max-height: 27px;
+      margin-right: 1.0625em;
+      position: relative;
+      top: 1px; }
+  .nav-mobile .nav-subscription {
+    text-align: center; }
+    .nav-mobile .nav-subscription h3 {
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 100; }
+    .nav-mobile .nav-subscription .form-container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      margin: 1.25em auto 0 auto; }
+      @media (max-width: 625px) {
+        .nav-mobile .nav-subscription .form-container {
+          display: flex;
+          flex-direction: column; } }
+      .nav-mobile .nav-subscription .form-container .email-icon {
+        width: 23px;
+        position: absolute;
+        left: 17px;
+        top: 14px; }
+      .nav-mobile .nav-subscription .form-container input {
+        margin-right: 5.625em;
+        width: 100%; }
+        @media (max-width: 736px) {
+          .nav-mobile .nav-subscription .form-container input {
+            margin-right: 0.625em; } }
+        @media (max-width: 660px) {
+          .nav-mobile .nav-subscription .form-container input {
+            margin: 0; } }
+        @media (max-width: 625px) {
+          .nav-mobile .nav-subscription .form-container input {
+            margin-bottom: 1.125em; } }
+      .nav-mobile .nav-subscription .form-container .btn-secondary-blue {
+        font-size: 1.0625em; }
+        @media (max-width: 440px) {
+          .nav-mobile .nav-subscription .form-container .btn-secondary-blue {
+            padding: 0.75em 0.9375em !important; } }
+    .nav-mobile .nav-subscription .social-media {
+      margin-top: 3.75em; }
+      .nav-mobile .nav-subscription .social-media ul {
+        display: flex;
+        justify-content: center;
+        align-items: baseline; }
+        .nav-mobile .nav-subscription .social-media ul img {
+          margin-right: 1.25em;
+          max-height: 17px; }
 
 #main-content {
   padding: 6.25em 0 3.125em 0;
@@ -4021,7 +4100,8 @@ header .hamburger-icon {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-top: 2.5em; }
+    margin-top: 2.5em;
+    width: 244px; }
   #main-footer li {
     display: flex;
     flex-direction: row-reverse;
@@ -4029,6 +4109,8 @@ header .hamburger-icon {
     margin-bottom: 1.25em; }
     #main-footer li img {
       margin-right: 0.9375em; }
+      #main-footer li img.facebook {
+        margin-right: 1.50rem; }
   #main-footer .copyright-text {
     display: flex;
     justify-content: center;
@@ -4075,6 +4157,27 @@ h2 {
   padding: 0.75em 2.375em;
   outline: 0;
   border-style: none; }
+
+.nav-mobile .nav-subscription .form-container .btn-secondary-blue {
+  background: #3593C9;
+  border-radius: 0.625em;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: LucidaGrande;
+  padding: 0.75em 2.375em;
+  outline: 0;
+  border-style: none; }
+
+#subscription .form-container button {
+  background-color: transparent;
+  border-radius: 0.375em;
+  color: #fff;
+  font-family: LucidaGrande;
+  padding: 0.75em 2.375em;
+  outline: 0;
+  border: 3px solid #6C6C6C; }
+  @media (max-width: 440px) {
+    #subscription .form-container button {
+      padding: 0.75em 1.125em; } }
 
 #subscription .form-container button {
   background-color: transparent;

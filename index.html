@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/application.css">
 </head>
 <body>
+  <!-- Header Section  -->
     <header>
       <div class="container">
         <nav>
@@ -16,12 +17,56 @@
             <li class="list-item"><a href="#">Our Clients</a></li>
             <li class="list-item"><a href="#">Agaasin Team</a></li>
             <li class="list-item"><a href="#">Contact us</a></li>
+
+            <label for="toggle">
             <img class="hamburger-icon" src="img/hamburger-icon.svg">
-          </ul>
+          </label>
+            </ul>
+          <input type="checkbox" id="toggle">
+          <div class="nav-mobile">
+            <div class="container">
+               <nav>
+                   <a href="#"><img src="img/home-icon.svg">Home</a>
+                   <a href="#"><img src="img/user-icon.svg"> Clients</a>
+                   <a href="#"><img src="img/user-icon.svg"> Agaasin Team</a>
+                   <a href="#"><img src="img/mobile-icon.svg"> Contact us</a>
+               </nav>
+
+               <div class="nav-subscription">
+                <h3>Sign up for our newsletter</h3>
+                <div class="form-container">
+                  <input type="email" placeholder="Enter Your Email">
+                  <img class="email-icon" src="img/email-icon.svg">
+                  <button class="btn-secondary-blue">Subscribe now</button>
+                </div>
+
+                <div class="social-media">
+                <ul>
+                  <a href="#"><li><img src="img/youtube-icon.svg"></li></a>
+                  <a href="#"><li><img src="img/instagram-icon.svg"></li></a>
+                  <a href="#"><li><img src="img/facebook-icon.svg"></li></a>
+                  <a href="#"><li><img src="img/twitter-icon.svg"></li></a>
+                </ul>
+              </div>
+
+               </div>
+            </div>
+          </div>
 
         </nav>
         </div>
+
     </header>
+  <!-- Closing Header Section  -->
+
+
+   <!-- Nav Menu for Mobile Device  -->
+
+       <!-- Closing Nav Menu for Mobile Device  -->
+
+
+
+
     <section id="jumbotron">
       <div class="container">
         <div class="first-column">
@@ -231,7 +276,7 @@
       <div class="col-sm-2">
         <h3 class="active-red text-upper">Social</h3>
         <ul>
-         <li class="map-icon">Facebook <img src="img/facebook-icon.svg"></li>
+         <li class="map-icon">Facebook <img class="facebook" src="img/facebook-icon.svg"></li>
          <li>Instagram<img src="img/instagram-icon.svg"></li>
          <li>Youtube <img src="img/youtube-icon.svg"></li>
          <li>Twitter <img src="img/twitter-icon.svg"></li>
