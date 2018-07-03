@@ -17,6 +17,11 @@
     grid-row-gap: em(20px);
   }
 
+  p{
+    @media(max-width: $xs){
+      max-width: 320px;
+    }
+  }
 
 
  .grid-item:nth-of-type(1){

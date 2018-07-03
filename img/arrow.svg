@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="72px" viewBox="0 0 38 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1344.000000, -2324.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Carousel" transform="translate(0.000000, 1882.000000)">
+                <g id="arrow-right" transform="translate(1363.000000, 478.000000) rotate(180.000000) translate(-1363.000000, -478.000000) translate(1344.000000, 442.000000)">
+                    <path d="M4.92425144,35.9981139 L37.4009518,3.4817415 C38.1996827,2.68203489 38.1996827,1.39948656 37.4009518,0.599779955 C36.6022209,-0.199926652 35.3212374,-0.199926652 34.5225064,0.599779955 L0.599048186,34.5646775 C-0.199682729,35.3643841 -0.199682729,36.6469325 0.599048186,37.4466391 L34.5225064,71.3964478 C34.9143367,71.7887567 35.4418005,72 35.9541939,72 C36.4665873,72 36.9940512,71.8038455 37.3858814,71.3964478 C38.1846123,70.5967412 38.1846123,69.3141929 37.3858814,68.5144863 L4.92425144,35.9981139 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

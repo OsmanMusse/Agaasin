@@ -4,6 +4,7 @@
 $black : #000;
 $white : #fff;
 $white-opacity: rgba(255, 255, 255, 0.82);
+$white-opacity-light: rgba(255, 255, 255, 0.9);
 
 
 
@@ -19,13 +20,22 @@ $mine-shaft : #2D2D2D;
 $catskill-white : #E4EDF4;
 $gallery : #F0F0F0; // Grey Color for the tweets section and sponsorship section
 
+// Border Colors
+$boston-blue : #3593C9;
+
+
 
 // Color Text
 
 $oslo-grey : #787B83;
 $emperor : rgba(86,83,83,0.74); // Text Color for the H6
 
+// Hover Colors
+
+$nav-link: rgba(255, 255, 255, 0.6);
+
 // Media Queries for Devices
+$xs-below: 360px;
 $xs : 575px;
 $sm : 736px;
 $md : 992px;
@@ -36,6 +46,10 @@ $grid-break-xs: 640px;
 $grid-break-md : 960px;
 $grid-max: 1100px;
 
-// // Media Queries for form-container
+// // Media Queries for Form-container
 $form-break-sm: 625px;
-$form-break-xs: 430px;
+$form-break-xs: 440px;
+
+
+// // Media Queries for Footer Section
+$footer-break: 925px;

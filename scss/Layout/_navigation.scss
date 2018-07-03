@@ -3,6 +3,8 @@
 header{
   @extend %header-default;
 
+
+
   nav{
 
   }
@@ -28,6 +30,22 @@ header{
 
   }
 
+  label{
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]{
+    display: none;
+  }
+
+
+    #toggle:checked + .nav-mobile{
+      display: block;
+    }
+
+
+
+
   .hamburger-icon{
     display: none;
   }
@@ -37,5 +55,121 @@ header{
       display: block;
     }
   }
+
+  } // Closing Header
+
+.nav-mobile{
+  display: none;
+  padding-bottom: em(40px);
+  background-color: $mine-shaft;
+
+
+
+
+  .container{
+    padding: 0;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    padding: em(18px) 0 em(70px) 0;
+
+    a{
+      display: flex;
+      align-items: baseline;
+      color: $white;
+      text-decoration: none;
+      border-bottom: 1px solid #65676b;
+      padding: em(10px) 0;
+      font-family: LucidaGrande;
+
+      &:hover{
+        color: $nav-link;
+      }
+    }
+
+    img{
+      display: inline-block;
+      width: 26px;
+      max-height: 27px;
+      margin-right: em(17px);
+      position: relative;
+      top: 1px;
+
+    }
+  }
+
+  .nav-subscription{
+    text-align: center;
+
+    h3{
+      color: $white-opacity-light;
+      font-weight: 100;
+    }
+    .form-container{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      margin: em(20px) auto 0 auto;
+      @media(max-width: $form-break-sm){
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
+      .email-icon{
+        width: 23px;
+        position: absolute;
+        left: 17px;
+        top: 14px;
+      }
+      input{
+        margin-right: em(90px);
+        width: 100%;
+
+
+
+
+        @media(max-width: $sm){
+          margin-right: em(10px);
+        }
+
+        @media(max-width: 660px){
+          margin: 0;
+        }
+
+        @media(max-width: $form-break-sm){
+          margin-bottom: em(18px);
+        }
+      }
+
+      .btn-secondary-blue{
+        @extend %btn-secondary-blue;
+        font-size: em(17px);
+
+        @media(max-width: $form-break-xs){
+           padding: em(12px) em(15px) !important;
+          }
+      }
+
+  } // Closing Form Container
+
+  .social-media{
+    margin-top: em(60px);
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      img{
+        margin-right: em(20px);
+        max-height: 17px;
+      }
+    }
+  }
+
+}
+
 
 }
