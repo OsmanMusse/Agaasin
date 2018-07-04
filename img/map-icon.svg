@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="31px" viewBox="0 0 23 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-566.000000, -5285.000000)" fill="#B1B5BB" fill-rule="nonzero">
+            <g id="Footer" transform="translate(0.000000, 5124.000000)">
+                <g id="Contact-info" transform="translate(566.000000, 75.000000)">
+                    <g id="Map-link" transform="translate(0.000000, 66.000000)">
+                        <g id="map-icon" transform="translate(0.000000, 20.000000)">
+                            <path d="M10.3181354,30.3745434 C1.61539063,17.6210133 0,16.3121113 0,11.6249972 C0,5.20466865 5.14870573,0 11.5,0 C17.8512943,0 23,5.20466865 23,11.6249972 C23,16.3121113 21.3846094,17.6210133 12.6818646,30.3745434 C12.1107578,31.2085158 10.8891823,31.2084553 10.3181354,30.3745434 Z M11.5,16.468746 C14.1463776,16.468746 16.2916667,14.3001391 16.2916667,11.6249972 C16.2916667,8.94985524 14.1463776,6.78124834 11.5,6.78124834 C8.8536224,6.78124834 6.70833333,8.94985524 6.70833333,11.6249972 C6.70833333,14.3001391 8.8536224,16.468746 11.5,16.468746 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

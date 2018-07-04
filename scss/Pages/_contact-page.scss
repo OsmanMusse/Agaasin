@@ -1,0 +1,77 @@
+
+#form-section{
+  background-color: $mine-shaft;
+  padding: em(20px) 0 em(60px) 0;
+
+
+
+  form{
+    display: flex;
+    width: 780px;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 2px solid $white;
+    border-radius: 5px;
+    background-color: $white;
+    padding: em(15px) (20px);
+
+    @media(max-width: $sm){
+      flex-direction: column;
+      width: 500px;
+    }
+
+    .flex-2{
+      margin-top: em(57px);
+
+      a{
+        color: #3f8abf;
+        text-decoration: none;
+      }
+
+      h3{
+        color: #384047;
+        font-size: em(18px);
+      }
+
+      p{
+        font-size: em(14px);
+      }
+    }
+
+
+    button{
+      @extend %btn-secondary;
+      background-color: $boston-blue;
+      color:$white;
+    }
+ }
+
+ h3{
+  font-weight: 500;
+  font-size: em(19px);
+  color: rgba(53, 51, 51, 0.74);
+ }
+
+
+
+
+ input{
+   @extend %label-secondary;
+   &::placeholder{
+     color: rbga(97, 107, 117, 0.89);
+     font-weight: 100;
+   }
+
+   @media(max-width: $sm){
+     width: 100%;
+   }
+ }
+
+ textarea{
+   @extend %textarea-primary;
+   @media(max-width: $sm){
+     width: 100%;
+   }
+ }
+
+}

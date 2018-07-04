@@ -12,6 +12,11 @@ line-height: 30px;
 @media(max-width: $xs){
   font-size: em(25.5px);
 }
+
+@media(max-width: $xs-below){
+  font-size: em(21px);
+}
+
 }
 
 %hdln-secondary{
@@ -47,12 +52,60 @@ line-height: 30px;
   border-style: none;
 }
 
+%btn-secondary-blue{
+  background: $boston-blue;
+  border-radius: em(10px);
+  color: $white-opacity-light;
+  font-family: LucidaGrande;
+  padding: em(12px) em(38px);
+  outline: 0;
+  border-style: none;
+}
+
 %btn-form{
   background-color: transparent;
-  border-radius: em(10px);
+  border-radius: em(6px);
   color: $white;
     font-family: LucidaGrande;
   padding: em(12px) em(38px);
   outline: 0;
   border: 3px solid #6C6C6C;
+
+  @media(max-width: $form-break-xs){
+     padding: em(12px) em(18px);
+    }
+}
+
+%btn-form{
+  background-color: transparent;
+  border-radius: em(6px);
+  color: $white;
+    font-family: LucidaGrande;
+  padding: em(12px) em(38px);
+  outline: 0;
+  border: 3px solid #6C6C6C;
+
+  @media(max-width: $form-break-xs){
+     padding: em(12px) em(18px);
+    }
+}
+
+
+%label-secondary{
+  background-color: #e8ebed;
+  border: none;
+  padding: 12px 15px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: em(20px);
+}
+
+%textarea-primary{
+  background-color: #e8ebed;
+  border: none;
+  padding: 12px 15px;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: em(20px);
 }
