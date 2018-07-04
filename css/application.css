@@ -4461,7 +4461,7 @@ h2 {
 
 #form-section {
   background-color: #2D2D2D;
-  padding: 1.25em 2.1875em 3.75em 2.1875em; }
+  padding: 1.25em 1.25em 3.75em 1.25em; }
   #form-section form {
     display: flex;
     width: 780px;
@@ -4470,7 +4470,7 @@ h2 {
     border: 2px solid #fff;
     border-radius: 5px;
     background-color: #fff;
-    padding: 0.9375em 20px; }
+    padding: 1.25em 20px; }
     @media (max-width: 736px) {
       #form-section form {
         flex-direction: column;
