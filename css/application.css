@@ -342,6 +342,9 @@ input[type="email"] {
     font-weight: normal;
     font-size: 1.0625em;
     color: #fff; }
+  input[type="email"]:focus {
+    background-color: #fff;
+    outline: none; }
 
 /*!
  * Bootstrap Grid v4.1.0 (https://getbootstrap.com/)
@@ -4195,7 +4198,7 @@ h2 {
   background-color: #e8ebed;
   border: none;
   padding: 12px 15px;
-  width: 300px;
+  width: 100%;
   border-radius: 5px;
   margin-bottom: 1.25em; }
 
@@ -4203,10 +4206,21 @@ h2 {
   background-color: #e8ebed;
   border: none;
   padding: 12px 15px;
-  width: 300px;
+  width: 100%;
   height: 150px;
   border-radius: 5px;
   margin-bottom: 1.25em; }
+
+#form-section form {
+  display: flex;
+  width: 880px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 1.25em 20px;
+  box-shadow: 0 1px 0 3px rgba(0, 0, 0, 0.1); }
 
 #carousel {
   padding: 0 0 2.5em 0; }
@@ -4460,41 +4474,37 @@ h2 {
       border-color: inherit; }
 
 #form-section {
-  background-color: #2D2D2D;
-  padding: 1.25em 1.25em 3.75em 1.25em; }
-  #form-section form {
-    display: flex;
-    width: 780px;
-    max-width: 100%;
-    margin: 0 auto;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    background-color: #fff;
-    padding: 1.25em 20px; }
+  padding: 2.5em 1.25em 3.75em 1.25em; }
+  @media (max-width: 736px) {
+    #form-section form {
+      flex-direction: column;
+      width: 500px; } }
+  #form-section form .flex-2 {
+    margin-top: 3.5625em; }
     @media (max-width: 736px) {
-      #form-section form {
-        flex-direction: column;
-        width: 500px; } }
-    #form-section form .flex-2 {
-      margin-top: 3.5625em; }
-      #form-section form .flex-2 a {
-        color: #3f8abf;
-        text-decoration: none; }
-      #form-section form .flex-2 h3 {
-        color: #384047;
-        font-size: 1.125em; }
-      #form-section form .flex-2 p {
-        font-size: 0.875em; }
-    #form-section form button {
-      background-color: #3593C9;
-      color: #fff; }
+      #form-section form .flex-2 {
+        margin-top: 2.3125em; } }
+    #form-section form .flex-2 a {
+      color: #3f8abf;
+      text-decoration: none;
+      font-family: LucidaGrande;
+      font-size: 0.875em; }
+    #form-section form .flex-2 h3 {
+      color: #384047;
+      font-size: 1.125em; }
+    #form-section form .flex-2 p {
+      font-size: 0.875em; }
+  #form-section form button {
+    background-color: #3593C9;
+    color: #fff; }
   #form-section h3 {
     font-weight: 500;
     font-size: 1.1875em;
     color: rgba(53, 51, 51, 0.74); }
   #form-section input::placeholder {
     color: rbga(97, 107, 117, 0.89);
-    font-weight: 100; }
+    font-family: LucidaGrande;
+    font-size: 0.9375em; }
   @media (max-width: 736px) {
     #form-section input {
       width: 100%; } }
