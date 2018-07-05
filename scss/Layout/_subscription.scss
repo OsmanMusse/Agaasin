@@ -37,7 +37,13 @@
 
     }
     input{
+      color: $white;
       margin-right: em(90px);
+      margin-left: -20px;
+
+      &::placeholder{
+        color: $white;
+      }
 
       @media(max-width: $xs-below){
         max-width: 330px;
