@@ -59,6 +59,10 @@
       font-weight: normal;
       font-size: em(17px);
       color: $white;
+    }
 
+    &:focus{
+      background-color: $white;
+      outline: none;
     }
   }
