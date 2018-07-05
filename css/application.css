@@ -334,17 +334,11 @@ input[type="email"] {
   border-radius: 4px;
   width: 420px;
   min-height: 50px;
-  padding-left: 80px;
-  color: #fff;
-  margin-left: -20px; }
+  padding-left: 80px; }
   input[type="email"]::placeholder {
     font-family: LucidaGrande;
     font-weight: normal;
-    font-size: 1.0625em;
-    color: #fff; }
-  input[type="email"]:focus {
-    background-color: #fff;
-    outline: none; }
+    font-size: 1.0625em; }
 
 /*!
  * Bootstrap Grid v4.1.0 (https://getbootstrap.com/)
@@ -4051,7 +4045,11 @@ header .hamburger-icon {
           left: 15px;
           top: 12px; } }
     #subscription .form-container input {
-      margin-right: 5.625em; }
+      color: #fff;
+      margin-right: 5.625em;
+      margin-left: -20px; }
+      #subscription .form-container input::placeholder {
+        color: #fff; }
       @media (max-width: 360px) {
         #subscription .form-container input {
           max-width: 330px; } }
