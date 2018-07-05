@@ -55,11 +55,14 @@
 
  input{
    @extend %label-secondary;
+
    &::placeholder{
      color: rbga(97, 107, 117, 0.89);
      font-family: LucidaGrande;
      font-size: em(15px);
    }
+
+
 
    @media(max-width: $sm){
      width: 100%;
