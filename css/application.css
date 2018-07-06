@@ -3670,9 +3670,12 @@ header {
   margin: 0 auto; }
 
 #jumbotron {
-  background-color: #E4EDF4;
+  background-color: #d0e5f5;
   height: 550px;
   padding: 1.25em 2.5em; }
+  #jumbotron span {
+    color: #5D58F8;
+    font-size: 1.0625em; }
   @media (max-width: 575px) {
     #jumbotron {
       padding: 0.3125em 1.25em; } }
@@ -4163,6 +4166,9 @@ header .hamburger-icon {
   #main-footer-team p {
     color: #B5C1CD;
     font-weight: 100; }
+    @media (max-width: 360px) {
+      #main-footer-team p {
+        font-weight: 400; } }
   #main-footer-team ul {
     display: flex;
     flex-direction: column;
@@ -4188,9 +4194,6 @@ header .hamburger-icon {
     align-items: center;
     border-top: none;
     height: 5.625em; }
-    @media (max-width: 360px) {
-      #main-footer-team .copyright-text p {
-        font-weight: 400; } }
 
 h1, #main-content h1 {
   font-family: LucidaGrande;

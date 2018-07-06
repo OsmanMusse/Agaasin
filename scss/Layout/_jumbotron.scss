@@ -7,6 +7,11 @@
   height: 550px;
   padding: em(20px) em(40px);
 
+  span{
+    color: $cornflower-blue;
+    font-size: em(17px);
+  }
+
 
 
   @media(max-width: $xs){
@@ -36,7 +41,7 @@
          position: absolute;
          @extend %btn-secondary;
 
-      
+
 
 
          &:before{
