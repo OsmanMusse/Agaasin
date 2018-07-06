@@ -29,7 +29,15 @@ line-height: 30px;
     font-size: em(22px);
   }
 }
-
+%btn-default{
+  background: $white;
+  border-radius: em(10px);
+  color: #3593EA;
+  font-family: LucidaGrande;
+  padding: em(11px) em(35px);
+  outline: 0;
+  border-style: none;
+}
 
 
 %btn-primary{
@@ -122,4 +130,32 @@ line-height: 30px;
   background-color: $white;
   padding: em(20px) (20px);
   box-shadow: 0 1px 0 3px rgba(0,0,0,0.10);
+}
+
+%panel-default{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $azure-radiance;
+  max-width: 945px;
+  margin: 0 auto;
+  margin-top: em(60px);
+  padding: em(70px) em(30px);
+  padding-top: 20px;
+  border-radius: 15px;
+
+  @media(max-width: $md){
+    max-width: 800px;
+  }
+
+  &:before{
+    @include curve-mountain;
+}
+
+  &:after{
+  @include curve-mountain-opacity;
+  }
+
 }
