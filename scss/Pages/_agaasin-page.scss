@@ -1,0 +1,63 @@
+
+#agaasin-team{
+  background-color: $porcelain;
+  padding: em(50px) 0;
+
+  h1{
+      text-align: center;
+  }
+
+  .grid-container{
+    display: grid;
+    justify-content:center;
+    grid-template-columns: repeat(3, 275px);
+    grid-column-gap: em(60px);
+    grid-template-rows: 340px;
+    grid-row-gap: em(50px);
+    margin-top: em(50px);
+
+    @media(max-width: $md){
+      grid-template-columns: repeat(2, 270px);
+    }
+
+    @media(max-width: $grid-break-xs){
+      grid-template-columns: repeat(1, 270px);
+    }
+
+
+
+    .grid-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(249, 250, 251, 0.81);
+      border-radius: 8px;
+      padding: em(25px) em(5px) em(35px) em(5px);
+
+      img{
+        max-width: 140px;
+      }
+
+      h3{
+        color: $mako;
+        font-size: em(20px);
+        font-weight: 100;
+        margin-top: em(19px);
+      }
+
+      .profile-title{
+        text-transform: uppercase;
+        color: $oslo-grey;
+        margin-bottom: em(35px);
+      }
+
+      .media-icons{
+        display: flex;
+        max-width: 116px;
+        img{
+          margin-right: em(15px);
+        }
+      }
+    }
+  }
+}
