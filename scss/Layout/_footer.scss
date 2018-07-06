@@ -166,10 +166,16 @@ padding-top:  em(20px);
      display: flex;
      justify-content: center;
      align-items: center;
-    border-top: none;
+     border-top: none;
      height: em(90px);
-   }
 
+
+     p{
+       @media(max-width: $xs-below){
+        font-weight: 400;
+     }
+   }
+} // Closing copyright-text
 
 
 

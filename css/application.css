@@ -4188,6 +4188,9 @@ header .hamburger-icon {
     align-items: center;
     border-top: none;
     height: 5.625em; }
+    @media (max-width: 360px) {
+      #main-footer-team .copyright-text p {
+        font-weight: 400; } }
 
 h1, #main-content h1 {
   font-family: LucidaGrande;
