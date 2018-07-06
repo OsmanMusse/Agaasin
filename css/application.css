@@ -4089,6 +4089,9 @@ header .hamburger-icon {
   @media (max-width: 575px) {
     .panel h1 {
       font-size: 1.5625em; } }
+  @media (max-width: 360px) {
+    .panel h1 {
+      font-size: 1.1em; } }
 
 #main-footer {
   background-color: #2D2D2D;
@@ -4345,6 +4348,10 @@ h2 {
       .panel:before {
         width: 170px;
         height: 68px; } }
+    @media (max-width: 360px) {
+      .panel:before {
+        width: 130px;
+        height: 54px; } }
   .panel:after {
     content: "";
     position: absolute;
@@ -4357,6 +4364,9 @@ h2 {
     @media (max-width: 575px) {
       .panel:after {
         width: 70px; } }
+    @media (max-width: 360px) {
+      .panel:after {
+        width: 30px; } }
 
 #carousel {
   padding: 0 0 2.5em 0; }
