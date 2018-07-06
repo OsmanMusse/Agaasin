@@ -126,6 +126,9 @@ padding-top:  em(20px);
    p{
      color: #B5C1CD;
      font-weight: 100;
+     @media(max-width: $xs-below){
+      font-weight: 400;
+   }
    }
 
    ul{
@@ -168,14 +171,7 @@ padding-top:  em(20px);
      align-items: center;
      border-top: none;
      height: em(90px);
-
-
-     p{
-       @media(max-width: $xs-below){
-        font-weight: 400;
-     }
-   }
-} // Closing copyright-text
+  }
 
 
 
