@@ -1,19 +1,11 @@
 
 #form-section{
-  background-color: $mine-shaft;
-  padding: em(20px) 0 em(60px) 0;
+  padding: em(40px) em(20px) em(60px) em(20px);
 
 
 
   form{
-    display: flex;
-    width: 780px;
-    max-width: 100%;
-    margin: 0 auto;
-    border: 2px solid $white;
-    border-radius: 5px;
-    background-color: $white;
-    padding: em(15px) (20px);
+    @extend %form-contact;
 
     @media(max-width: $sm){
       flex-direction: column;
@@ -23,9 +15,15 @@
     .flex-2{
       margin-top: em(57px);
 
+      @media(max-width: 736px){
+        margin-top: em(37px);
+      }
+
       a{
         color: #3f8abf;
         text-decoration: none;
+        font-family: LucidaGrande;
+        font-size: em(14px);
       }
 
       h3{
@@ -57,10 +55,14 @@
 
  input{
    @extend %label-secondary;
+
    &::placeholder{
      color: rbga(97, 107, 117, 0.89);
-     font-weight: 100;
+     font-family: LucidaGrande;
+     font-size: em(15px);
    }
+
+
 
    @media(max-width: $sm){
      width: 100%;

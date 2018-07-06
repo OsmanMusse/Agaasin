@@ -33,6 +33,11 @@
   color: $emperor;
   }
 
+  span{
+    font-family: LucidaGrande;
+    font-size: em(13px);
+  }
+
 
   ul,
   li {
@@ -51,14 +56,12 @@
     width: 420px;
     min-height: 50px;
     padding-left: 80px;
-    color: $white;
-    margin-left: -20px;
 
     &::placeholder{
       font-family: LucidaGrande;
       font-weight: normal;
       font-size: em(17px);
-      color: $white;
-
     }
+
+
   }
