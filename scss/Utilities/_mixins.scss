@@ -45,6 +45,12 @@
     width: 170px;
     height: 68px;
   }
+
+  @media(max-width: $xs-below){
+  width: 130px;
+  height: 54px;
+  }
+
 }
 
 @mixin curve-mountain-opacity{
@@ -59,5 +65,9 @@
 
   @media(max-width: $xs){
     width: 70px;
+  }
+
+  @media(max-width: $xs-below){
+    width: 30px;
   }
 }
