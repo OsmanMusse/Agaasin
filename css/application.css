@@ -3874,6 +3874,150 @@ header .hamburger-icon {
       background-repeat: no-repeat;
       margin: 0 auto; }
 
+@media (max-width: 736px) {
+  .grid-sm-1 {
+    flex: 0 0 6.0975609756%;
+    max-width: 6.0975609756%; }
+
+  .grid-sm-2 {
+    flex: 0 0 14.6341463415%;
+    max-width: 14.6341463415%; }
+
+  .grid-sm-3 {
+    flex: 0 0 23.1707317073%;
+    max-width: 23.1707317073%; }
+
+  .grid-sm-4 {
+    flex: 0 0 31.7073170732%;
+    max-width: 31.7073170732%; }
+
+  .grid-sm-5 {
+    flex: 0 0 40.243902439%;
+    max-width: 40.243902439%; }
+
+  .grid-sm-6 {
+    flex: 0 0 48.7804878049%;
+    max-width: 48.7804878049%; }
+
+  .grid-sm-7 {
+    flex: 0 0 57.3170731707%;
+    max-width: 57.3170731707%; }
+
+  .grid-sm-8 {
+    flex: 0 0 65.8536585366%;
+    max-width: 65.8536585366%; }
+
+  .grid-sm-9 {
+    flex: 0 0 74.3902439024%;
+    max-width: 74.3902439024%; }
+
+  .grid-sm-10 {
+    flex: 0 0 82.9268292683%;
+    max-width: 82.9268292683%; }
+
+  .grid-sm-11 {
+    flex: 0 0 91.4634146341%;
+    max-width: 91.4634146341%; }
+
+  .grid-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%; } }
+@media (max-width: 992px) {
+  .grid-md-1 {
+    flex: 0 0 6.0975609756%;
+    max-width: 6.0975609756%; }
+
+  .grid-md-2 {
+    flex: 0 0 14.6341463415%;
+    max-width: 14.6341463415%; }
+
+  .grid-md-3 {
+    flex: 0 0 23.1707317073%;
+    max-width: 23.1707317073%; }
+
+  .grid-md-4 {
+    flex: 0 0 31.7073170732%;
+    max-width: 31.7073170732%; }
+
+  .grid-md-5 {
+    flex: 0 0 40.243902439%;
+    max-width: 40.243902439%; }
+
+  .grid-md-6 {
+    flex: 0 0 48.7804878049%;
+    max-width: 48.7804878049%; }
+
+  .grid-md-7 {
+    flex: 0 0 57.3170731707%;
+    max-width: 57.3170731707%; }
+
+  .grid-md-8 {
+    flex: 0 0 65.8536585366%;
+    max-width: 65.8536585366%; }
+
+  .grid-md-9 {
+    flex: 0 0 74.3902439024%;
+    max-width: 74.3902439024%; }
+
+  .grid-md-10 {
+    flex: 0 0 82.9268292683%;
+    max-width: 82.9268292683%; }
+
+  .grid-md-11 {
+    flex: 0 0 91.4634146341%;
+    max-width: 91.4634146341%; }
+
+  .grid-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%; } }
+@media (max-width: 1120px) {
+  .grid-lg-1 {
+    flex: 0 0 6.0975609756%;
+    max-width: 6.0975609756%; }
+
+  .grid-lg-2 {
+    flex: 0 0 14.6341463415%;
+    max-width: 14.6341463415%; }
+
+  .grid-lg-3 {
+    flex: 0 0 23.1707317073%;
+    max-width: 23.1707317073%; }
+
+  .grid-lg-4 {
+    flex: 0 0 31.7073170732%;
+    max-width: 31.7073170732%; }
+
+  .grid-lg-5 {
+    flex: 0 0 40.243902439%;
+    max-width: 40.243902439%; }
+
+  .grid-lg-6 {
+    flex: 0 0 48.7804878049%;
+    max-width: 48.7804878049%; }
+
+  .grid-lg-7 {
+    flex: 0 0 57.3170731707%;
+    max-width: 57.3170731707%; }
+
+  .grid-lg-8 {
+    flex: 0 0 65.8536585366%;
+    max-width: 65.8536585366%; }
+
+  .grid-lg-9 {
+    flex: 0 0 74.3902439024%;
+    max-width: 74.3902439024%; }
+
+  .grid-lg-10 {
+    flex: 0 0 82.9268292683%;
+    max-width: 82.9268292683%; }
+
+  .grid-lg-11 {
+    flex: 0 0 91.4634146341%;
+    max-width: 91.4634146341%; }
+
+  .grid-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%; } }
 #tweets-section {
   display: flex;
   justify-content: center;
@@ -4148,7 +4292,8 @@ header .hamburger-icon {
   #main-footer-team .container {
     display: flex;
     justify-content: center;
-    padding-bottom: 2.5em; }
+    padding-bottom: 2.5em;
+    padding-top: 1.5625em; }
     @media (max-width: 925px) {
       #main-footer-team .container {
         flex-direction: column; } }
