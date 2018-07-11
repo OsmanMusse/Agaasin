@@ -3867,6 +3867,150 @@ header .hamburger-icon {
       background-repeat: no-repeat;
       margin: 0 auto; }
 
+@media (max-width: 1120px) {
+  .col-lg-1 {
+    max-width: 6.3829787234%; }
+
+  .col-lg-2 {
+    max-width: 14.8936170213%; }
+
+  .col-lg-3 {
+    max-width: 23.4042553191%; }
+
+  .col-lg-4 {
+    max-width: 31.914893617%; }
+
+  .col-lg-5 {
+    max-width: 40.4255319149%; }
+
+  .col-lg-6 {
+    max-width: 48.9361702128%; }
+
+  .col-lg-7 {
+    max-width: 57.4468085106%; }
+
+  .col-lg-8 {
+    max-width: 65.9574468085%; }
+
+  .col-lg-9 {
+    max-width: 74.4680851064%; }
+
+  .col-lg-10 {
+    max-width: 82.9787234043%; }
+
+  .col-lg-11 {
+    max-width: 91.4893617021%; }
+
+  .col-lg-12 {
+    max-width: 100%; } }
+@media (max-width: 992px) {
+  .col-md-1 {
+    max-width: 6.3829787234%; }
+
+  .col-md-2 {
+    max-width: 14.8936170213%; }
+
+  .col-md-3 {
+    max-width: 23.4042553191%; }
+
+  .col-md-4 {
+    max-width: 31.914893617%; }
+
+  .col-md-5 {
+    max-width: 40.4255319149%; }
+
+  .col-md-6 {
+    max-width: 48.9361702128%; }
+
+  .col-md-7 {
+    max-width: 57.4468085106%; }
+
+  .col-md-8 {
+    max-width: 65.9574468085%; }
+
+  .col-md-9 {
+    max-width: 74.4680851064%; }
+
+  .col-md-10 {
+    max-width: 82.9787234043%; }
+
+  .col-md-11 {
+    max-width: 91.4893617021%; }
+
+  .col-md-12 {
+    max-width: 100%; } }
+@media (max-width: 736px) {
+  .col-sm-1 {
+    max-width: 6.3829787234%; }
+
+  .col-sm-2 {
+    max-width: 14.8936170213%; }
+
+  .col-sm-3 {
+    max-width: 23.4042553191%; }
+
+  .col-sm-4 {
+    max-width: 31.914893617%; }
+
+  .col-sm-5 {
+    max-width: 40.4255319149%; }
+
+  .col-sm-6 {
+    max-width: 48.9361702128%; }
+
+  .col-sm-7 {
+    max-width: 57.4468085106%; }
+
+  .col-sm-8 {
+    max-width: 65.9574468085%; }
+
+  .col-sm-9 {
+    max-width: 74.4680851064%; }
+
+  .col-sm-10 {
+    max-width: 82.9787234043%; }
+
+  .col-sm-11 {
+    max-width: 91.4893617021%; }
+
+  .col-sm-12 {
+    max-width: 100%; } }
+@media (max-width: 360px) {
+  .col-xs-1 {
+    max-width: 6.3829787234%; }
+
+  .col-xs-2 {
+    max-width: 14.8936170213%; }
+
+  .col-xs-3 {
+    max-width: 23.4042553191%; }
+
+  .col-xs-4 {
+    max-width: 31.914893617%; }
+
+  .col-xs-5 {
+    max-width: 40.4255319149%; }
+
+  .col-xs-6 {
+    max-width: 48.9361702128%; }
+
+  .col-xs-7 {
+    max-width: 57.4468085106%; }
+
+  .col-xs-8 {
+    max-width: 65.9574468085%; }
+
+  .col-xs-9 {
+    max-width: 74.4680851064%; }
+
+  .col-xs-10 {
+    max-width: 82.9787234043%; }
+
+  .col-xs-11 {
+    max-width: 91.4893617021%; }
+
+  .col-xs-12 {
+    max-width: 100%; } }
 #tweets-section {
   display: flex;
   justify-content: center;
