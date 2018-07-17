@@ -15,3 +15,59 @@
   background-size: 80%;
   @content;
 }
+
+
+@mixin curve-mountain{
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 103px;
+  background-image: url("../img/panel-curve.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: -11px;
+  left: 0px;
+  @content;
+
+  @media(max-width: $md){
+    width: 260px;
+    height: 100px;
+    bottom: -8px;
+    left: 0px;
+  }
+
+  @media(max-width: $grid-break-xs){
+    width: 200px;
+    height: 79px;
+  }
+
+  @media(max-width: $xs){
+    width: 170px;
+    height: 68px;
+  }
+
+  @media(max-width: $xs-below){
+  width: 130px;
+  height: 54px;
+  }
+
+}
+
+@mixin curve-mountain-opacity{
+  content: "";
+  position: absolute;
+  width: 84px;
+  height: 110px;
+  background-image: url("../img/panel-curve-opacity.svg");
+  background-repeat: no-repeat;
+  top: 0px;
+  right: 0px;
+
+  @media(max-width: $xs){
+    width: 70px;
+  }
+
+  @media(max-width: $xs-below){
+    width: 30px;
+  }
+}

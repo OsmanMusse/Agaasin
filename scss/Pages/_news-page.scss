@@ -1,0 +1,38 @@
+#recent-news{
+  margin-top: em(90px);
+
+  h1{
+    color: $butterfly-bush;
+    font-weight: bold;
+  }
+
+  .grid-container{
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 622px 484px );
+    grid-template-rows: em(400px) em(400px);
+  }
+
+  .grids-item{
+
+    background: #FDFDFD;
+    border: 2px solid #E6E6E6;
+    border-radius: 13px;
+    &:nth-of-type(1){
+      // border: 2px solid red;
+    }
+    &:nth-of-type(2){
+      border: 2px solid blue;
+    }
+    &:nth-of-type(3){
+      border: 2px solid orange;
+    }
+
+    img{
+      width: 100%;
+      border-radius: 12px;
+    }
+  }
+
+
+}
