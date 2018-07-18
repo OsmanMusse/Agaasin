@@ -1,0 +1,73 @@
+
+
+// Base Colors
+$black : #000;
+$white : #fff;
+$white-opacity: rgba(255, 255, 255, 0.82);
+$white-opacity-light: rgba(255, 255, 255, 0.9);
+
+
+
+
+// Text
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
+
+
+// Background Colors
+$mine-shaft : #2D2D2D;
+$catskill-white : #d0e5f5;
+$gallery : #F0F0F0; // Grey Color for the tweets section and sponsorship section
+$porcelain : #EBEDEE;
+
+// Border Colors
+$boston-blue : #3593C9;
+
+
+
+// Color Text
+$oslo-grey : #787B83;
+$emperor : rgba(86,83,83,0.74); // Text Color for the H6
+$cornflower-blue : #5D58F8;   // Text Color for the span elements inside the Jumbotron
+$mako: #404851; // Grey black color for the names of the cards
+$azure-radiance: #0F82E6;
+$link-water : #c6ddf3; // Color for the panel header
+$Geyser : #DBE0E6; // Color for the footer in the agaasin team page
+$butterfly-bush: #6566AA; // Color for the recent news title
+
+// Hover Colors
+
+$nav-link: rgba(255, 255, 255, 0.6);
+
+// Media Queries for Devices
+$xs-below: 360px;
+$xs : 575px;
+$sm : 736px;
+$md : 992px;
+$lg : 1120px;
+
+// // Media Queries for Workshop Grid
+$grid-break-xs: 640px;
+$grid-break-md : 960px;
+$grid-max: 1100px;
+
+
+// Media Queries for News feed Grid
+
+$grid-column-break: 1135px;
+
+// // Media Queries for Form-container
+$form-break-sm: 625px;
+$form-break-xs: 440px;
+
+
+// // Media Queries for Footer Section
+$footer-break: 925px;
+
+
+// Grid Configuration
+$grid-col-w     : 60px;
+$grid-col-count : 12;
+$grid-gutter-w  : 20px;
+$grid-con-max-w : 1200px;
