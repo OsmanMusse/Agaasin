@@ -71,7 +71,9 @@
       @media(max-width: $form-break-xs){
          padding: em(12px) em(15px) !important;
         }
-
+      &.btn-purple{
+        @extend %btn-form-purple;
+      }
     }
   } // Closing Form Container
 
