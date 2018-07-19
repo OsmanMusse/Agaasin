@@ -4413,6 +4413,15 @@ h2 {
     #subscription .form-container button {
       padding: 0.75em 1.125em; } }
 
+#subscription .form-container button.btn-purple {
+  background-color: #5e60ec;
+  border-radius: 3.125em;
+  border-color: transparent;
+  color: #fff;
+  font-family: LucidaGrande;
+  padding: 0em 2.0625em;
+  outline: 0; }
+
 #subscription .form-container button {
   background-color: transparent;
   border-radius: 0.375em;
@@ -4847,9 +4856,11 @@ h2 {
           margin-right: 0.9375em; }
 
 #recent-news {
-  margin-top: 5.625em; }
+  margin-top: 5.625em;
+  padding-bottom: 6.875em; }
   #recent-news h1 {
     color: #6566AA;
+    font-size: 1.75em;
     font-weight: bold; }
   @media (max-width: 1135px) {
     #recent-news .container {
@@ -4863,17 +4874,26 @@ h2 {
     grid-row-gap: 2em; }
     @media (max-width: 1135px) {
       #recent-news .grid-container {
-        grid-template-columns: 1fr; } }
+        grid-template-columns: 1fr;
+        grid-template-rows: 36.875em 36.875em 36.875em 36.875em; } }
   #recent-news .grids-item:nth-of-type(odd) {
     display: flex;
     flex-direction: column;
     background: #FDFDFD;
     border: 2px solid #E6E6E6;
-    border-radius: 13px; }
+    border-radius: 13px;
+    /* This media query stops the news content's height from ajusting
+     and keeps it absoultely at the bottom of the card */ }
+    @media (max-width: 700px) {
+      #recent-news .grids-item:nth-of-type(odd) {
+        position: relative; } }
     #recent-news .grids-item:nth-of-type(odd) img {
       width: 100%;
       border-top-left-radius: 12px;
       border-top-right-radius: 12px; }
+    #recent-news .grids-item:nth-of-type(odd) .news-img {
+      max-height: 380px;
+      min-height: 200px; }
     #recent-news .grids-item:nth-of-type(odd) h3 {
       color: #6566AA;
       font-size: 1.125em;
@@ -4884,18 +4904,36 @@ h2 {
       font-family: LucidaGrande;
       color: rgba(86, 83, 83, 0.8); }
     #recent-news .grids-item:nth-of-type(odd) .news-content {
-      padding: 1.375em 2em 1.125em 1.25em; }
+      padding: 1.375em 2em 1.125em 1.25em;
+      /* This media query stops the news content's height from ajusting
+       and keeps it absoultely at the bottom of the card */ }
+      @media (max-width: 700px) {
+        #recent-news .grids-item:nth-of-type(odd) .news-content {
+          position: absolute;
+          bottom: -5px; } }
     #recent-news .grids-item:nth-of-type(odd) .userfeed-container {
       display: flex; }
     #recent-news .grids-item:nth-of-type(odd) .user-feed {
       display: flex;
       align-items: center; }
+      #recent-news .grids-item:nth-of-type(odd) .user-feed button {
+        border: none;
+        background-color: transparent; }
+        #recent-news .grids-item:nth-of-type(odd) .user-feed button:focus {
+          outline: none; }
       #recent-news .grids-item:nth-of-type(odd) .user-feed .like-button {
+        cursor: pointer;
         width: 32px;
         margin-right: 0.9375em; }
+        #recent-news .grids-item:nth-of-type(odd) .user-feed .like-button path:clicked {
+          fill: red; }
+      #recent-news .grids-item:nth-of-type(odd) .user-feed .on {
+        fill: red; }
       #recent-news .grids-item:nth-of-type(odd) .user-feed span {
         color: #6566AA;
-        font-size: 1.25em; }
+        font-size: 1.25em;
+        position: relative;
+        top: -2px; }
     #recent-news .grids-item:nth-of-type(odd) .comment-feed {
       display: flex;
       align-items: center;
@@ -4911,7 +4949,12 @@ h2 {
     flex-direction: column;
     background: #FDFDFD;
     border: 2px solid #E6E6E6;
-    border-radius: 13px; }
+    border-radius: 13px;
+    /* This media query stops the news content's height from ajusting
+     and keeps it absoultely at the bottom of the card */ }
+    @media (max-width: 700px) {
+      #recent-news .grids-item:nth-of-type(even) {
+        position: relative; } }
     #recent-news .grids-item:nth-of-type(even) img {
       width: 100%;
       border-top-left-radius: 12px;
@@ -4921,6 +4964,9 @@ h2 {
       @media (max-width: 1135px) {
         #recent-news .grids-item:nth-of-type(even) .news-img {
           height: auto; } }
+      @media (min-width: 575px) and (max-width: 700px) {
+        #recent-news .grids-item:nth-of-type(even) .news-img {
+          height: 345px; } }
     #recent-news .grids-item:nth-of-type(even) h3 {
       color: #6566AA;
       font-size: 1.125em;
@@ -4931,7 +4977,13 @@ h2 {
       font-family: LucidaGrande;
       color: rgba(86, 83, 83, 0.8); }
     #recent-news .grids-item:nth-of-type(even) .news-content {
-      padding: 1.375em 2em 2.1875em 1.25em; }
+      padding: 1.375em 2em 2.1875em 1.25em;
+      /* This media query stops the news content's height from ajusting
+       and keeps it absoultely at the bottom of the card */ }
+      @media (max-width: 700px) {
+        #recent-news .grids-item:nth-of-type(even) .news-content {
+          position: absolute;
+          bottom: -5px; } }
     #recent-news .grids-item:nth-of-type(even) .userfeed-container {
       display: flex; }
     #recent-news .grids-item:nth-of-type(even) .user-feed {
@@ -4942,7 +4994,9 @@ h2 {
         margin-right: 0.9375em; }
       #recent-news .grids-item:nth-of-type(even) .user-feed span {
         color: #6566AA;
-        font-size: 1.25em; }
+        font-size: 1.25em;
+        position: relative;
+        top: -1px; }
     #recent-news .grids-item:nth-of-type(even) .comment-feed {
       display: flex;
       align-items: center;
