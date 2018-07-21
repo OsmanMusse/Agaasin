@@ -4399,6 +4399,68 @@ header .hamburger-icon {
     border-top: none;
     height: 5.625em; }
 
+#main-footer-news {
+  background-color: #363C44;
+  border-top: 1px solid #575757; }
+  #main-footer-news .container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5em;
+    padding-top: 1.5625em; }
+    @media (max-width: 925px) {
+      #main-footer-news .container {
+        flex-direction: column; } }
+  #main-footer-news h3 {
+    position: relative;
+    color: #DBE0E6; }
+    #main-footer-news h3.purple {
+      color: #8184FF; }
+    #main-footer-news h3.text-upper {
+      text-transform: uppercase; }
+    #main-footer-news h3.active-purple {
+      color: #8e9098; }
+    #main-footer-news h3.active-purple:before {
+      content: "";
+      border-bottom: 2px solid #5e60ec;
+      position: absolute;
+      bottom: -13px;
+      left: 0px;
+      width: 60px; }
+  #main-footer-news p {
+    color: #B5C1CD;
+    font-weight: 100; }
+    @media (max-width: 360px) {
+      #main-footer-news p {
+        font-weight: 400; } }
+  #main-footer-news ul {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 2.5em;
+    width: 244px; }
+    @media (max-width: 440px) {
+      #main-footer-news ul {
+        width: 255px; } }
+  #main-footer-news li {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Avenir-Book;
+    font-size: 1.125em;
+    color: #797e8c;
+    margin-bottom: 1.25em; }
+    #main-footer-news li img {
+      margin-right: 0.9375em; }
+      #main-footer-news li img.facebook {
+        margin-right: 1.50rem; }
+    #main-footer-news li.mobile-icon {
+      align-self: center; }
+  #main-footer-news .copyright-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    height: 5.625em; }
+
 h1, #main-content h1 {
   font-family: LucidaGrande;
   font-size: 1.9375em;
@@ -4477,6 +4539,9 @@ h2 {
   font-family: LucidaGrande;
   padding: 0em 2.0625em;
   outline: 0; }
+  @media (max-width: 625px) {
+    #subscription .form-container button.btn-purple, #subscription-gray .form-container button.btn-purple {
+      min-height: 50px; } }
 
 #subscription .form-container button, #subscription-gray .form-container button {
   background-color: transparent;
