@@ -58,16 +58,26 @@
       font-size: em(18px);
       margin: 0;
       max-width: 415px;
+
+     @media(min-width: $xs-below) and (max-width: $xs){
+      width: 300px;
+     }
     }
 
     p{
       font-size: em(16px);
       font-family: LucidaGrande;
       color: rgba(86,83,83,0.80);
+      min-width: 288px;
     }
 
     .news-content{
       padding: em(22px) em(32px) em(18px) em(20px);
+      width: 100%;
+
+      @media(min-width: $xs-below) and (max-width: $xs){
+       padding: em(19px) em(30px) em(16px) em(19px);
+      }
 
       /* This media query stops the news content's height from ajusting
        and keeps it absoultely at the bottom of the card */
@@ -166,6 +176,10 @@
       @media(min-width: 575px) and (max-width: 700px){
         height: 345px;
       }
+
+      @media(min-width: $xs-below) and (max-width: $xs){
+        height: 270px;
+      }
     }
 
     h3{
@@ -173,6 +187,11 @@
       font-size: em(18px);
       margin: 0;
       max-width: 415px;
+
+      @media(min-width: $xs-below) and (max-width: $xs){
+       width: 300px;
+      }
+
     }
 
     p{
@@ -183,6 +202,11 @@
 
     .news-content{
       padding: em(22px) em(32px) em(35px) em(20px);
+      width: 100%;
+
+      @media(min-width: $xs-below) and (max-width: $xs){
+       padding: em(19px) em(30px) em(16px) em(19px);
+      }
 
       /* This media query stops the news content's height from ajusting
        and keeps it absoultely at the bottom of the card */
