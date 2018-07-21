@@ -80,3 +80,66 @@
  } // Closing 3- Grid Item
 
 } // Closing Grid Section
+
+
+ // Calculating Grid Columns
+
+
+ @media(max-width: $lg){
+
+ @for $i from 1 through $grid-col-count{
+
+   $context : grid-config($grid-col-w, $grid-col-count, $grid-gutter-w);
+   $target : ($grid-col-w * $i) + ($grid-gutter-w * ($i - 1));
+
+   .col-lg-#{$i}{
+     max-width: percentage($target / $context);
+   }
+ }
+
+ } // Closing Large Breakpoint
+
+
+ @media(max-width: $md){
+
+ @for $i from 1 through $grid-col-count{
+
+   $context : grid-config($grid-col-w, $grid-col-count, $grid-gutter-w);
+   $target : ($grid-col-w * $i) + ($grid-gutter-w * ($i - 1));
+
+   .col-md-#{$i}{
+     max-width: percentage($target / $context);
+   }
+ }
+
+} // Closing Medium Breakpoint
+
+
+
+@media(max-width: $sm){
+  @for $i from 1 through $grid-col-count{
+    $context : grid-config($grid-col-w, $grid-col-count, $grid-gutter-w);
+    $target : ($grid-col-w * $i) + ($grid-gutter-w * ($i - 1));
+
+    .col-sm-#{$i}{
+      max-width: percentage($target / $context);
+    }
+  }
+}
+
+
+@media(max-width: $xs-below){
+   @for $i from 1 through $grid-col-count{
+
+     $context: grid-config($grid-col-w, $grid-col-count, $grid-gutter-w);
+     $target : ($grid-col-w * $i) + ($grid-gutter-w * ($i - 1));
+
+     .col-xs-#{$i}{
+       max-width: percentage($target / $context);
+     }
+   }
+}
+
+// [class^="col-"]{
+//
+// }

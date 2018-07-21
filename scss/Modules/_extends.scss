@@ -74,7 +74,7 @@ line-height: 30px;
   background-color: transparent;
   border-radius: em(6px);
   color: $white;
-    font-family: LucidaGrande;
+  font-family: LucidaGrande;
   padding: em(12px) em(38px);
   outline: 0;
   border: 3px solid #6C6C6C;
@@ -83,6 +83,23 @@ line-height: 30px;
      padding: em(12px) em(18px);
     }
 }
+
+%btn-form-purple{
+  background-color: $royal-blue;
+  border-radius:em(50px);
+  border-color: transparent;
+  color: $white;
+  font-family: LucidaGrande;
+  padding: em(0px) em(33px);
+  outline: 0;
+
+  @media(max-width: $form-break-sm){
+    min-height: 60px;
+    font-size: em(19px);
+    font-weight: bold;
+}
+  }
+
 
 %btn-form{
   background-color: transparent;
