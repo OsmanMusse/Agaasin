@@ -5024,14 +5024,22 @@ h2 {
       font-size: 1.125em;
       margin: 0;
       max-width: 415px; }
+      @media (min-width: 360px) and (max-width: 575px) {
+        #recent-news .grids-item:nth-of-type(odd) h3 {
+          width: 300px; } }
     #recent-news .grids-item:nth-of-type(odd) p {
       font-size: 1em;
       font-family: LucidaGrande;
-      color: rgba(86, 83, 83, 0.8); }
+      color: rgba(86, 83, 83, 0.8);
+      min-width: 288px; }
     #recent-news .grids-item:nth-of-type(odd) .news-content {
       padding: 1.375em 2em 1.125em 1.25em;
+      width: 100%;
       /* This media query stops the news content's height from ajusting
        and keeps it absoultely at the bottom of the card */ }
+      @media (min-width: 360px) and (max-width: 575px) {
+        #recent-news .grids-item:nth-of-type(odd) .news-content {
+          padding: 1.1875em 1.875em 1em 1.1875em; } }
       @media (max-width: 700px) {
         #recent-news .grids-item:nth-of-type(odd) .news-content {
           position: absolute;
@@ -5092,19 +5100,29 @@ h2 {
       @media (min-width: 575px) and (max-width: 700px) {
         #recent-news .grids-item:nth-of-type(even) .news-img {
           height: 345px; } }
+      @media (min-width: 360px) and (max-width: 575px) {
+        #recent-news .grids-item:nth-of-type(even) .news-img {
+          height: 270px; } }
     #recent-news .grids-item:nth-of-type(even) h3 {
       color: #6566AA;
       font-size: 1.125em;
       margin: 0;
       max-width: 415px; }
+      @media (min-width: 360px) and (max-width: 575px) {
+        #recent-news .grids-item:nth-of-type(even) h3 {
+          width: 300px; } }
     #recent-news .grids-item:nth-of-type(even) p {
       font-size: 1em;
       font-family: LucidaGrande;
       color: rgba(86, 83, 83, 0.8); }
     #recent-news .grids-item:nth-of-type(even) .news-content {
       padding: 1.375em 2em 2.1875em 1.25em;
+      width: 100%;
       /* This media query stops the news content's height from ajusting
        and keeps it absoultely at the bottom of the card */ }
+      @media (min-width: 360px) and (max-width: 575px) {
+        #recent-news .grids-item:nth-of-type(even) .news-content {
+          padding: 1.1875em 1.875em 1em 1.1875em; } }
       @media (max-width: 700px) {
         #recent-news .grids-item:nth-of-type(even) .news-content {
           position: absolute;
