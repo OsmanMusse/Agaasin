@@ -4543,7 +4543,9 @@ h2 {
   outline: 0; }
   @media (max-width: 625px) {
     #subscription .form-container button.btn-purple, #subscription-gray .form-container button.btn-purple {
-      min-height: 50px; } }
+      min-height: 60px;
+      font-size: 1.1875em;
+      font-weight: bold; } }
 
 #subscription .form-container button, #subscription-gray .form-container button {
   background-color: transparent;
