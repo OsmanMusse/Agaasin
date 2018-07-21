@@ -4410,6 +4410,8 @@ header .hamburger-icon {
     @media (max-width: 925px) {
       #main-footer-news .container {
         flex-direction: column; } }
+    #main-footer-news .container p {
+      color: #787B83; }
   #main-footer-news h3 {
     position: relative;
     color: #DBE0E6; }
