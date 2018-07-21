@@ -4220,6 +4220,62 @@ header .hamburger-icon {
         #subscription .form-container button {
           padding: 0.75em 0.9375em !important; } }
 
+#subscription-gray {
+  display: flex;
+  flex-direction: column;
+  background-color: #363C44;
+  padding: 5em 0.9375em; }
+  #subscription-gray h2 {
+    text-align: center;
+    color: #fff; }
+  #subscription-gray .form-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 1.25em auto 0 auto; }
+    @media (max-width: 625px) {
+      #subscription-gray .form-container {
+        display: flex;
+        flex-direction: column; } }
+    #subscription-gray .form-container img {
+      width: 28px;
+      position: absolute;
+      left: 10px;
+      top: 14px; }
+      @media (max-width: 440px) {
+        #subscription-gray .form-container img {
+          width: 29px;
+          left: 15px;
+          top: 15px; } }
+    #subscription-gray .form-container input {
+      margin-right: 5.625em;
+      margin-left: -20px;
+      background-color: #404851;
+      border: 4px solid #4B535B;
+      border-radius: 8px;
+      height: 55px; }
+      #subscription-gray .form-container input::placeholder {
+        color: #A9ACAE !important;
+        font-size: 1.1875em; }
+      @media (max-width: 360px) {
+        #subscription-gray .form-container input {
+          max-width: 330px; } }
+      @media (max-width: 736px) {
+        #subscription-gray .form-container input {
+          margin-right: 0.625em; } }
+      @media (max-width: 660px) {
+        #subscription-gray .form-container input {
+          margin: 0; } }
+      @media (max-width: 625px) {
+        #subscription-gray .form-container input {
+          width: 370px;
+          margin-bottom: 1.125em; } }
+    #subscription-gray .form-container button {
+      font-size: 1.0625em; }
+      @media (max-width: 440px) {
+        #subscription-gray .form-container button {
+          padding: 0.75em 0.9375em !important; } }
+
 .panel h1 {
   font-family: Avenir-Book;
   font-size: 2em;
@@ -4401,7 +4457,7 @@ h2 {
   outline: 0;
   border-style: none; }
 
-#subscription .form-container button {
+#subscription .form-container button, #subscription-gray .form-container button {
   background-color: transparent;
   border-radius: 0.375em;
   color: #fff;
@@ -4410,10 +4466,10 @@ h2 {
   outline: 0;
   border: 3px solid #6C6C6C; }
   @media (max-width: 440px) {
-    #subscription .form-container button {
+    #subscription .form-container button, #subscription-gray .form-container button {
       padding: 0.75em 1.125em; } }
 
-#subscription .form-container button.btn-purple {
+#subscription .form-container button.btn-purple, #subscription-gray .form-container button.btn-purple {
   background-color: #5e60ec;
   border-radius: 3.125em;
   border-color: transparent;
@@ -4422,7 +4478,7 @@ h2 {
   padding: 0em 2.0625em;
   outline: 0; }
 
-#subscription .form-container button {
+#subscription .form-container button, #subscription-gray .form-container button {
   background-color: transparent;
   border-radius: 0.375em;
   color: #fff;
@@ -4431,7 +4487,7 @@ h2 {
   outline: 0;
   border: 3px solid #6C6C6C; }
   @media (max-width: 440px) {
-    #subscription .form-container button {
+    #subscription .form-container button, #subscription-gray .form-container button {
       padding: 0.75em 1.125em; } }
 
 #form-section input {
