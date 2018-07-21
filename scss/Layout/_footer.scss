@@ -131,6 +131,7 @@ padding-top:  em(20px);
      @media(max-width: $xs-below){
       font-weight: 400;
    }
+
    }
 
    ul{
@@ -193,6 +194,10 @@ padding-top:  em(20px);
 
      @media(max-width: $footer-break){
        flex-direction: column;
+     }
+
+     p{
+       color: $oslo-grey;
      }
 
    }
