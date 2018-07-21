@@ -1,9 +1,10 @@
 
 #main-footer{
-
 background-color: $mine-shaft;
 border-top: 2px solid #575757;
 padding-top:  em(20px);
+
+
 
 
 
@@ -82,7 +83,7 @@ padding-top:  em(20px);
   }
 }
 
-
+// Footer for the agaasin page
 
 #main-footer-team{
   background-color: #24486C;
@@ -174,7 +175,108 @@ padding-top:  em(20px);
      height: em(90px);
   }
 
+}
+
+// Footer for the news feed page
+
+#main-footer-news{
+  background-color: $bright-gray;
+  border-top: 1px solid $scorpion;
 
 
+
+   .container{
+     display: flex;
+     justify-content: center;
+     padding-bottom: em(40px);
+     padding-top: em(25px);
+
+     @media(max-width: $footer-break){
+       flex-direction: column;
+     }
+
+   }
+
+   h3{
+     position: relative;
+     color: $Geyser;
+
+     &.purple{
+       color: $malibu;
+     }
+
+     &.text-upper{
+       text-transform: uppercase;
+     }
+
+     &.active-purple{
+       color: $oslo-grey-light;
+     }
+
+
+     &.active-purple:before{
+       content: "";
+       border-bottom: 2px solid $royal-blue;
+       position: absolute;
+       bottom: -13px;
+       left: 0px;
+       width: 60px;
+
+     }
+   }
+
+   p{
+     color: #B5C1CD;
+     font-weight: 100;
+     @media(max-width: $xs-below){
+      font-weight: 400;
+   }
+   }
+
+   ul{
+     display: flex;
+     flex-direction: column;
+     align-items: baseline;
+     margin-top: em(40px);
+     width: 244px;
+
+     @media(max-width: $form-break-xs){
+       width: 255px;
+     }
+   }
+
+   li{
+     display: flex;
+     flex-direction: row-reverse;
+     font-family: Avenir-Book;
+     font-size: em(18px);
+     color: #797e8c;
+     margin-bottom: em(20px);
+
+
+
+
+    img{
+      margin-right: em(15px);
+
+      &.facebook{
+           margin-right: 1.50rem;
+      }
+    }
+
+    &.mobile-icon{
+      align-self: center;
+    }
+
+   }
+
+
+   .copyright-text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-top: none;
+     height: em(90px);
+  }
 
 }

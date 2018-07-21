@@ -116,8 +116,6 @@
 
 
 
-
-
 @media(max-width: $sm){
   @for $i from 1 through $grid-col-count{
     $context : grid-config($grid-col-w, $grid-col-count, $grid-gutter-w);
@@ -142,6 +140,6 @@
    }
 }
 
-[class^="col-"]{
-
-}
+// [class^="col-"]{
+//
+// }
