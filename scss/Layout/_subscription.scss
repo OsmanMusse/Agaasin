@@ -6,6 +6,8 @@
   background-color: $mine-shaft;
   padding: em(80px) em(15px);
 
+
+
   h2{
     text-align: center;
     color: $white;
@@ -43,6 +45,98 @@
 
       &::placeholder{
         color: $white;
+      }
+
+      @media(max-width: $xs-below){
+        max-width: 330px;
+      }
+
+
+      @media(max-width: $sm){
+        margin-right: em(10px);
+      }
+
+      @media(max-width: 660px){
+        margin: 0;
+      }
+
+      @media(max-width: $form-break-sm){
+        width: 370px;
+        margin-bottom: em(18px);
+      }
+    }
+
+    button{
+      @extend %btn-form;
+      font-size: em(17px);
+
+      @media(max-width: $form-break-xs){
+         padding: em(12px) em(15px) !important;
+        }
+      &.btn-purple{
+        @extend %btn-form-purple;
+      }
+    }
+  } // Closing Form Container
+
+
+} // Closing Subscription
+
+
+
+// Subscription section for the news feed page
+#subscription-gray{
+  display: flex;
+  flex-direction: column;
+  background-color: $bright-gray;
+  padding: em(80px) em(15px);
+
+
+
+  h2{
+    text-align: center;
+    color: $white;
+  }
+
+  .form-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: em(20px) auto 0 auto;
+    @media(max-width: $form-break-sm){
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    img{
+      width: 28px;
+      position: absolute;
+      left: 10px;
+      top: 14px;
+
+      @media(max-width: $form-break-xs){
+        width: 29px;
+        left: 15px;
+        top: 15px;
+      }
+
+    }
+    input{
+      margin-right: em(90px);
+      margin-left: -20px;
+      background-color: $mako;
+      border: 4px solid $trout;
+      border-radius: 8px;
+      height: 55px;
+      // border: 4px solid transparent;
+      // border-image: linear-gradient(-45deg, $trout 25%, $trout 25%);
+      // border-image-slice: 1;
+
+      &::placeholder{
+        color: $gray-chateau !important;
+        font-size: em(19px);
       }
 
       @media(max-width: $xs-below){

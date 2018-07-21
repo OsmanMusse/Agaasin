@@ -48,6 +48,8 @@
     font-weight: normal;
   }
 
+
+
   input[type="email"]{
     position: relative;
     background-color: #484848;
@@ -57,11 +59,15 @@
     min-height: 50px;
     padding-left: 80px;
 
+
+
     &::placeholder{
       font-family: LucidaGrande;
       font-weight: normal;
       font-size: em(17px);
     }
+
+
 
 
   }
