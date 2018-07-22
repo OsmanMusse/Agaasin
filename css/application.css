@@ -4983,6 +4983,8 @@ h2 {
 #recent-news {
   margin-top: 5.625em;
   padding-bottom: 6.875em; }
+  #recent-news a:focus {
+    fill: blue; }
   #recent-news h1 {
     color: #6566AA;
     font-size: 1.75em;
@@ -5058,10 +5060,6 @@ h2 {
         cursor: pointer;
         width: 32px;
         margin-right: 0.9375em; }
-        #recent-news .grids-item:nth-of-type(odd) .user-feed .like-button path:clicked {
-          fill: red; }
-      #recent-news .grids-item:nth-of-type(odd) .user-feed .on {
-        fill: red; }
       #recent-news .grids-item:nth-of-type(odd) .user-feed span {
         color: #6566AA;
         font-size: 1.25em;
@@ -5150,5 +5148,8 @@ h2 {
       #recent-news .grids-item:nth-of-type(even) .comment-feed span {
         color: #6566AA;
         font-size: 1.25em; }
+
+.on {
+  fill: red; }
 
 /*# sourceMappingURL=application.css.map */

@@ -2,6 +2,10 @@
   margin-top: em(90px);
   padding-bottom: em(110px);
 
+  a:focus{
+    fill: blue;
+  }
+
   h1{
     color: $butterfly-bush;
     font-size: em(28px);
@@ -109,17 +113,10 @@
         cursor: pointer;
         width: 32px;
         margin-right: em(15px);
-
-        path{
-          &:clicked{
-            fill:red;
-          }
-        }
       }
 
-      .on{
-        fill: red;
-      }
+
+
 
       span{
         color: $butterfly-bush;
@@ -230,6 +227,8 @@
         margin-right: em(15px);
       }
 
+
+
       span{
         color: $butterfly-bush;
         font-size: em(20px);
@@ -264,3 +263,7 @@
 
 
 //  Closing Subscription Section
+
+.on{
+  fill:red;
+}
